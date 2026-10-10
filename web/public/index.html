@@ -1,0 +1,872 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>猫 meme 小剧场 · 写一句话，让猫给你演</title>
+<meta name="description" content="猫 meme 小剧场是一个本地运行的猫咪短视频工作室。写一句故事创意，AI 自动拆分镜、挑选猫咪演员、生成电影级背景，30 秒导出一条竖屏 meme 短剧，素材和成片全程留在你自己电脑上。">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --ink: #1d1d2b;
+    --cream: #fff9ef;
+    --paper: #fdf1de;
+    --orange: #ff6b35;
+    --red: #ff4d4d;
+    --blue: #29b6f6;
+    --purple: #7c3aed;
+    --yellow: #ffd166;
+    --green: #2ecc71;
+  }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Segoe UI", sans-serif;
+    background: var(--cream);
+    color: var(--ink);
+    overflow-x: hidden;
+  }
+
+  .dots-bg {
+    position: fixed; inset: 0; z-index: -1; pointer-events: none;
+    background-image: radial-gradient(rgba(29,29,43,0.07) 1px, transparent 1px);
+    background-size: 22px 22px;
+  }
+
+  /* ---------- 顶部横幅 ---------- */
+  .banner {
+    position: relative; z-index: 30;
+    display: flex; align-items: center; justify-content: center; gap: 18px;
+    flex-wrap: wrap;
+    padding: 14px 5vw;
+    background: var(--purple);
+    color: #fff;
+    border-bottom: 3px solid var(--ink);
+  }
+  .banner-txt { font-weight: 800; font-size: 15px; display: flex; align-items: center; gap: 8px; }
+  .banner-txt .tag {
+    display: inline-block;
+    font-size: 12px; font-weight: 900; letter-spacing: 1px;
+    color: var(--ink); background: var(--yellow);
+    border: 2px solid var(--ink);
+    padding: 3px 8px;
+    transform: rotate(-3deg);
+  }
+  .banner-btn {
+    display: inline-flex; align-items: center; gap: 8px;
+    font-size: 14px; font-weight: 900; color: var(--ink);
+    background: #fff;
+    border: 3px solid var(--ink);
+    box-shadow: 3px 3px 0 var(--ink);
+    padding: 8px 20px;
+    text-decoration: none;
+    transition: transform .15s ease, box-shadow .15s ease;
+  }
+  .banner-btn:hover { transform: translateY(-2px); box-shadow: 3px 6px 0 var(--ink); }
+  .banner-btn .bounce { display: inline-block; animation: nudge 1.2s infinite; }
+
+  @keyframes nudge { 0%,100%{transform:translateX(0)} 50%{transform:translateX(6px)} }
+  @keyframes float { 0%,100%{translate:0 0} 50%{translate:0 -10px} }
+  @keyframes sway {
+    0%,100% { transform: translateX(-50%) rotate(-3deg) translateY(0); }
+    50% { transform: translateX(-50%) rotate(3deg) translateY(-8px); }
+  }
+
+  /* ---------- Hero ---------- */
+  .hero {
+    position: relative;
+    text-align: center;
+    padding: 70px 5vw 40px;
+  }
+  .hero-tag {
+    display: inline-block;
+    font-size: 12px; font-weight: 900; letter-spacing: 3px;
+    background: #fff;
+    border: 3px solid var(--ink);
+    box-shadow: 4px 4px 0 var(--ink);
+    padding: 7px 16px;
+    transform: rotate(-1.5deg);
+  }
+  .hero h1 {
+    margin: 30px 0 0;
+    font-size: clamp(38px, 9vw, 88px);
+    font-weight: 900;
+    line-height: 1.05;
+    letter-spacing: -2px;
+  }
+  .hero h1 .word {
+    display: inline-block;
+    color: #fff;
+    background: var(--ink);
+    padding: 0 18px;
+    transform: rotate(2deg);
+    margin: 6px 2px;
+    box-shadow: 6px 6px 0 var(--orange);
+  }
+  .hero h1 .word.alt { box-shadow: 6px 6px 0 var(--blue); transform: rotate(-2deg); }
+  .hero h1 .arrow {
+    display: inline-block;
+    font-size: .7em;
+    transform: rotate(-6deg);
+    margin: 0 10px;
+    color: var(--blue);
+  }
+  .hero-desc {
+    max-width: 540px; margin: 30px auto 36px;
+    font-size: 18px; font-weight: 600; line-height: 1.65;
+    padding: 16px 24px;
+    background: #fff;
+    border: 3px dashed var(--ink);
+    transform: rotate(-.5deg);
+    white-space: pre-line;
+  }
+  .cta-wrap { position: relative; display: inline-block; }
+  .cta {
+    display: inline-flex; align-items: center; gap: 12px;
+    font-size: 22px; font-weight: 900; color: #fff;
+    background: var(--purple);
+    border: 3px solid var(--ink);
+    box-shadow: 6px 6px 0 var(--ink);
+    padding: 18px 42px;
+    text-decoration: none;
+    transform: rotate(-2deg);
+    transition: transform .15s ease, box-shadow .15s ease;
+    cursor: pointer;
+  }
+  .cta:hover { transform: rotate(-2deg) translateY(-3px); box-shadow: 6px 10px 0 var(--ink); }
+  .cta .bounce { display: inline-block; animation: nudge 1.2s infinite; }
+  .cta-free {
+    position: absolute; top: -18px; right: -30px;
+    background: var(--yellow); color: var(--ink);
+    font-size: 13px; font-weight: 900;
+    border: 3px solid var(--ink);
+    padding: 6px 12px;
+    transform: rotate(10deg);
+    box-shadow: 3px 3px 0 var(--ink);
+    white-space: nowrap;
+  }
+  .cta-note { margin-top: 22px; font-size: 14px; font-weight: 700; color: #666; }
+
+  .sticker {
+    position: absolute; z-index: 2;
+    font-weight: 900; font-size: 15px;
+    border: 3px solid var(--ink);
+    padding: 10px 16px;
+    box-shadow: 4px 4px 0 var(--ink);
+    animation: float 4s ease-in-out infinite;
+  }
+  .sticker-a { top: 22%; left: 5%; background: var(--yellow); transform: rotate(-12deg); }
+  .sticker-b { top: 32%; right: 4%; background: var(--blue); color: #fff; transform: rotate(8deg); animation-delay: 1s; }
+  .sticker-c { bottom: 12%; left: 8%; background: var(--green); color: #fff; transform: rotate(6deg); animation-delay: 2s; }
+
+  /* ---------- 手机预览 ---------- */
+  .stage {
+    position: relative;
+    display: flex; flex-direction: column; align-items: center;
+    padding: 30px 5vw 10px;
+  }
+  .phone {
+    position: relative;
+    width: min(300px, 74vw);
+    aspect-ratio: 9 / 16;
+    background: var(--ink);
+    border: 4px solid var(--ink);
+    border-radius: 34px;
+    box-shadow: 12px 12px 0 var(--ink), 0 0 0 4px #fff inset;
+    padding: 10px;
+    transform: rotate(-1.5deg);
+  }
+  .phone-screen {
+    position: relative;
+    width: 100%; height: 100%;
+    border-radius: 24px;
+    overflow: hidden;
+    background: #2b2b3a;
+  }
+  .phone-bg {
+    position: absolute; inset: 0;
+    background-size: cover; background-position: center;
+  }
+  .hero-cat {
+    position: absolute; left: 50%; bottom: 15%;
+    width: 74%;
+    transform: translateX(-50%);
+    transform-origin: bottom center;
+    animation: sway 3.4s ease-in-out infinite;
+    filter: drop-shadow(0 10px 14px rgba(0,0,0,.45));
+  }
+  .phone-caption {
+    position: absolute; left: 10px; right: 10px; bottom: 14px;
+    text-align: center;
+    font-size: 13px; font-weight: 900; line-height: 1.35;
+    color: #fff;
+    text-shadow: 0 2px 0 #000, 0 0 8px rgba(0,0,0,.9), 0 0 2px #000;
+  }
+  .phone-badge {
+    position: absolute; left: 10px; top: 10px; z-index: 3;
+    font-size: 10px; font-weight: 900; letter-spacing: .5px;
+    color: #fff; background: rgba(29,29,43,.78);
+    border: 2px solid #fff;
+    padding: 4px 9px;
+    border-radius: 999px;
+  }
+  .phone-notch {
+    position: absolute; left: 50%; top: 14px; transform: translateX(-50%);
+    width: 78px; height: 7px; border-radius: 999px;
+    background: rgba(255,255,255,.28); z-index: 4;
+  }
+
+  /* 分镜时间轴 */
+  .reel {
+    display: flex; align-items: center; gap: 10px;
+    margin-top: 34px;
+    padding: 14px 18px;
+    background: #fff;
+    border: 3px solid var(--ink);
+    box-shadow: 8px 8px 0 var(--ink);
+    transform: rotate(1deg);
+    max-width: 100%;
+    overflow-x: auto;
+    scrollbar-width: thin;
+  }
+  .reel-label {
+    flex: 0 0 auto; font-size: 11px; font-weight: 900; letter-spacing: 1px;
+    color: #fff; background: var(--red);
+    border: 2px solid var(--ink);
+    padding: 5px 9px;
+    transform: rotate(-3deg);
+  }
+  .reel-item {
+    position: relative; flex: 0 0 auto;
+    width: 62px; height: 62px;
+    border: 3px solid var(--ink);
+    background: #fff;
+    overflow: hidden;
+  }
+  .reel-item img { width: 100%; height: 100%; object-fit: contain; padding: 3px; }
+  .reel-item span {
+    position: absolute; right: 2px; bottom: 2px;
+    font-size: 9px; font-weight: 900; color: #fff;
+    background: var(--ink); padding: 1px 4px;
+  }
+  .reel-item.active { background: var(--yellow); }
+  .reel-add {
+    flex: 0 0 auto;
+    width: 34px; height: 62px;
+    border: 3px dashed #bbb;
+    background: #fff;
+    font-size: 18px; font-weight: 900; color: #bbb;
+    display: grid; place-items: center;
+  }
+
+  /* ---------- 通用区块标题 ---------- */
+  .sec-title {
+    text-align: center;
+    font-size: clamp(30px, 5vw, 50px); font-weight: 900;
+    margin-bottom: 14px;
+    letter-spacing: -1.5px;
+  }
+  .sec-title .hl {
+    display: inline-block;
+    background: var(--yellow);
+    border: 3px solid var(--ink);
+    padding: 4px 16px;
+    transform: rotate(-1.5deg);
+    box-shadow: 5px 5px 0 var(--ink);
+  }
+  .sec-sub {
+    text-align: center;
+    font-size: 15px; font-weight: 700; color: #6b6b7d;
+    margin-bottom: 50px;
+    padding: 0 5vw;
+  }
+
+  /* ---------- 案例剧场 ---------- */
+  .demo-area { padding: 80px 5vw; }
+  .demo-wrap {
+    position: relative;
+    max-width: 1120px; margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(232px, 1fr));
+    gap: 30px;
+    justify-items: center;
+  }
+  .demo-card {
+    width: 100%; max-width: 282px;
+    background: #fff;
+    border: 3px solid var(--ink);
+    box-shadow: 8px 8px 0 var(--ink);
+    transform: rotate(var(--tilt, 0deg));
+    transition: transform .2s ease, box-shadow .2s ease;
+  }
+  .demo-card:hover { transform: rotate(0deg) translateY(-4px); box-shadow: 8px 12px 0 var(--ink); }
+  .demo-card:nth-child(3n+1) { --tilt: -3deg; }
+  .demo-card:nth-child(3n+2) { --tilt: 2.5deg; }
+  .demo-card:nth-child(3n+3) { --tilt: -1.5deg; }
+  .demo-pic {
+    position: relative;
+    aspect-ratio: 9 / 16;
+    background: #151520;
+    border-bottom: 3px solid var(--ink);
+    cursor: pointer;
+    overflow: hidden;
+  }
+  .demo-pic video, .demo-pic .demo-fallback {
+    width: 100%; height: 100%; object-fit: contain; display: block;
+    background: #151520;
+  }
+  .demo-pic .demo-fallback {
+    display: grid; place-items: center;
+    font-size: 46px;
+  }
+  .demo-play {
+    position: absolute; left: 12px; bottom: 12px; z-index: 3;
+    width: 42px; height: 42px;
+    border-radius: 50%;
+    background: var(--red); color: #fff;
+    border: 3px solid var(--ink);
+    display: flex; align-items: center; justify-content: center;
+    font-size: 14px;
+    box-shadow: 3px 3px 0 var(--ink);
+    transition: transform .15s ease;
+  }
+  .demo-pic:hover .demo-play { transform: scale(1.1); }
+  .demo-src {
+    position: absolute; right: 12px; top: 12px; z-index: 3;
+    font-size: 10px; font-weight: 900; letter-spacing: .5px;
+    background: var(--yellow); color: var(--ink);
+    border: 2px solid var(--ink);
+    padding: 3px 8px;
+    transform: rotate(3deg);
+  }
+  .demo-src.auto { background: var(--blue); color: #fff; }
+  .demo-foot {
+    display: flex; align-items: center; justify-content: space-between; gap: 8px;
+    padding: 12px 14px;
+  }
+  .demo-tags { display: flex; gap: 6px; flex-wrap: wrap; }
+  .demo-tag {
+    font-size: 11px; font-weight: 800;
+    padding: 3px 8px;
+    border: 2px solid var(--ink);
+    background: var(--tagc, var(--yellow));
+  }
+  .demo-meta { font-size: 11px; font-weight: 800; color: #8a8a99; white-space: nowrap; }
+
+  .case-status {
+    text-align: center;
+    font-size: 15px; font-weight: 800; color: #6b6b7d;
+    margin: -30px 0 40px;
+  }
+  .case-empty {
+    grid-column: 1 / -1;
+    width: 100%; max-width: 720px;
+    background: #fff;
+    border: 3px dashed var(--ink);
+    box-shadow: 8px 8px 0 var(--ink);
+    padding: 34px 28px;
+    transform: rotate(-.6deg);
+  }
+  .case-empty h3 { font-size: 20px; font-weight: 900; margin-bottom: 12px; }
+  .case-empty p { font-size: 14px; font-weight: 600; line-height: 1.7; color: #4a4a58; }
+  .case-empty code {
+    display: inline-block;
+    font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+    font-size: 12px; font-weight: 700;
+    background: var(--paper);
+    border: 2px solid var(--ink);
+    padding: 2px 7px;
+    margin: 3px 3px 3px 0;
+  }
+
+  /* ---------- 特性 ---------- */
+  .feat-area { padding: 20px 5vw 80px; }
+  .feat-grid {
+    max-width: 1080px; margin: 0 auto;
+    display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 28px;
+  }
+  .feat-card {
+    position: relative;
+    border: 3px solid var(--ink);
+    box-shadow: 7px 7px 0 var(--ink);
+    padding: 30px 24px 26px;
+    background: var(--fc, #fff);
+    transform: rotate(var(--ftilt, 0deg));
+    transition: transform .2s ease, box-shadow .2s ease;
+  }
+  .feat-card:hover { transform: rotate(0deg) translateY(-4px); box-shadow: 7px 11px 0 var(--ink); }
+  .feat-card:nth-child(4n+1) { --fc: #ffe3d6; --ftilt: -1.5deg; }
+  .feat-card:nth-child(4n+2) { --fc: #d6f0ff; --ftilt: 1.5deg; }
+  .feat-card:nth-child(4n+3) { --fc: #fff3c4; --ftilt: -1deg; }
+  .feat-card:nth-child(4n+4) { --fc: #e9dcff; --ftilt: 1deg; }
+  .feat-icon {
+    width: 58px; height: 58px;
+    border: 3px solid var(--ink);
+    background: #fff;
+    border-radius: 12px;
+    display: flex; align-items: center; justify-content: center;
+    margin-bottom: 18px;
+    transform: rotate(-4deg);
+  }
+  .feat-card h3 { font-size: 20px; font-weight: 900; margin-bottom: 10px; }
+  .feat-card p { font-size: 14px; font-weight: 500; line-height: 1.65; color: #444; }
+
+  /* ---------- 步骤 ---------- */
+  .steps-area { padding: 10px 5vw 80px; }
+  .steps { max-width: 660px; margin: 0 auto; display: flex; flex-direction: column; gap: 26px; }
+  .step {
+    display: flex; align-items: center; gap: 22px;
+    background: #fff;
+    border: 3px solid var(--ink);
+    box-shadow: 6px 6px 0 var(--ink);
+    padding: 22px 26px;
+    transform: rotate(var(--stilt, 0deg));
+  }
+  .step:nth-child(1) { --stilt: -1deg; }
+  .step:nth-child(2) { --stilt: 1deg; }
+  .step:nth-child(3) { --stilt: -.5deg; }
+  .step-num {
+    width: 56px; height: 56px; flex-shrink: 0;
+    background: var(--sn, var(--orange));
+    color: #fff; font-size: 26px; font-weight: 900;
+    border: 3px solid var(--ink);
+    display: flex; align-items: center; justify-content: center;
+    transform: rotate(-6deg);
+  }
+  .step:nth-child(2) .step-num { --sn: var(--blue); }
+  .step:nth-child(3) .step-num { --sn: var(--green); }
+  .step h4 { font-size: 19px; font-weight: 900; margin-bottom: 4px; }
+  .step p { font-size: 14px; font-weight: 500; color: #555; line-height: 1.6; }
+
+  /* ---------- 演员阵容 ---------- */
+  .cast-area { padding: 10px 5vw 80px; }
+  .cast-grid {
+    max-width: 1060px; margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    gap: 20px;
+  }
+  .cast-card {
+    background: #fff;
+    border: 3px solid var(--ink);
+    box-shadow: 5px 5px 0 var(--ink);
+    padding: 10px 8px 8px;
+    text-align: center;
+    transform: rotate(var(--ctilt, 0deg));
+    transition: transform .2s ease, background .2s ease;
+    cursor: pointer;
+  }
+  .cast-card:hover { transform: rotate(0deg) scale(1.06); background: var(--yellow); }
+  .cast-card:nth-child(4n+1) { --ctilt: -2deg; }
+  .cast-card:nth-child(4n+2) { --ctilt: 1.5deg; }
+  .cast-card:nth-child(4n+3) { --ctilt: -1deg; }
+  .cast-card:nth-child(4n+4) { --ctilt: 2deg; }
+  .cast-pic {
+    width: 100%; aspect-ratio: 1;
+    background: var(--paper);
+    border: 2px solid var(--ink);
+    overflow: hidden;
+    margin-bottom: 8px;
+  }
+  .cast-pic img { width: 100%; height: 100%; object-fit: contain; }
+  .cast-name { font-size: 12px; font-weight: 900; line-height: 1.3; }
+  .cast-more {
+    display: block; text-align: center; margin-top: 30px;
+    font-size: 14px; font-weight: 800; color: #6b6b7d;
+  }
+
+  /* ---------- CTA ---------- */
+  .cta-area { padding: 20px 5vw 80px; }
+  .cta-banner {
+    max-width: 900px; margin: 0 auto;
+    text-align: center;
+    background: var(--ink);
+    color: #fff;
+    border: 3px solid var(--ink);
+    box-shadow: 10px 10px 0 var(--purple);
+    padding: 60px 30px;
+    position: relative;
+  }
+  .cta-banner::before {
+    content: "";
+    position: absolute; inset: 8px;
+    border: 3px dashed rgba(255,255,255,.35);
+    pointer-events: none;
+  }
+  .cta-banner h2 { font-size: clamp(28px, 5vw, 46px); font-weight: 900; margin-bottom: 14px; letter-spacing: -1px; }
+  .cta-banner p { font-size: 16px; font-weight: 600; color: #ccc; margin-bottom: 32px; }
+  .cta-banner .cta { background: var(--orange); box-shadow: 5px 5px 0 #fff; border-color: #fff; }
+  .cta-banner .cta:hover { box-shadow: 5px 8px 0 #fff; }
+  .cta-cats { display: flex; justify-content: center; gap: 4px; margin-bottom: 20px; }
+  .cta-cats img {
+    width: 132px; height: 132px;
+    object-fit: contain;
+    animation: float 3.6s ease-in-out infinite;
+  }
+  .cta-cats img:nth-child(1) { transform: rotate(-7deg); }
+  .cta-cats img:nth-child(3) { transform: rotate(6deg); }
+  .cta-cats img:nth-child(2) { animation-delay: .6s; }
+  .cta-cats img:nth-child(3) { animation-delay: 1.2s; }
+
+  /* ---------- Footer ---------- */
+  .footer {
+    border-top: 3px solid var(--ink);
+    background: var(--yellow);
+    text-align: center;
+    padding: 26px 20px;
+    font-size: 13px; font-weight: 700; line-height: 1.8;
+  }
+  .footer a { color: var(--purple); text-decoration: underline; text-underline-offset: 3px; }
+
+  /* ---------- 滚动出现 ---------- */
+  .reveal { opacity: 0; transform: translateY(24px); transition: opacity .5s ease, transform .5s ease; }
+  .reveal.in { opacity: 1; transform: none; }
+
+  @media (max-width: 760px) {
+    .sticker { display: none; }
+    .hero { padding-top: 50px; }
+    .phone { box-shadow: 8px 8px 0 var(--ink); }
+    .demo-area, .feat-area, .steps-area, .cast-area { padding-bottom: 60px; }
+    .step { flex-direction: row; padding: 18px; gap: 16px; }
+    .step-num { width: 46px; height: 46px; font-size: 21px; }
+    .cta { font-size: 18px; padding: 15px 30px; }
+    .cta-cats img { width: 78px; height: 78px; }
+    .cta-banner { padding: 44px 20px; }
+    .demo-wrap { grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 20px; }
+  }
+</style>
+</head>
+<body>
+
+<div class="dots-bg"></div>
+
+<!-- 顶部横幅 -->
+<div class="banner">
+  <span class="banner-txt">
+    <span class="tag">AIDesign</span>
+    本作坊由 OhMyDesign 和 MonkeyAI 联合制作
+  </span>
+  <a class="banner-btn" href="https://ai-design.app.baizhi.cloud/workspace" target="_blank" rel="noopener noreferrer">欢迎体验 <span class="bounce">➜</span></a>
+</div>
+
+<!-- Hero -->
+<header class="hero">
+  <div class="sticker sticker-a">一句话出片</div>
+  <div class="sticker sticker-b">237 只猫演员</div>
+  <div class="sticker sticker-c">9:16 竖屏</div>
+
+  <span class="hero-tag">WRITE · CAST · EXPORT</span>
+  <h1>
+    <span class="word">猫 MEME</span>
+    <span class="arrow">➜</span>
+    <span class="word alt">剧场</span>
+  </h1>
+  <p class="hero-desc">丢一句故事创意进来，AI 自动拆分镜、挑猫咪演员、画电影级背景。
+30 秒导出一条竖屏 meme 短剧。</p>
+  <div class="cta-wrap">
+    <a href="/cat-meme-theater/" class="cta">开始编剧 <span class="bounce">➜</span></a>
+    <div class="cta-free">本地运行</div>
+  </div>
+  <p class="cta-note">237 个猫咪素材 · 自动字幕 · AI 背景 · FFmpeg 本地合成</p>
+</header>
+
+<!-- 手机预览 -->
+<div class="stage reveal">
+  <div class="phone">
+    <div class="phone-screen">
+      <div class="phone-bg" style="background-image:url('/cat-meme-theater/assets/bg-office.svg')"></div>
+      <div class="phone-badge">分镜 1 · 初来乍到</div>
+      <img class="hero-cat" src="/cat-meme-theater/assets/posters-keyed/164-925841635918391580.webp" alt="猫演员" loading="lazy">
+      <div class="phone-caption">第一天上班，稳住，<br>不能让人看出我什么都不会。</div>
+    </div>
+    <div class="phone-notch"></div>
+  </div>
+
+  <div class="reel">
+    <span class="reel-label">TIMELINE</span>
+    <div class="reel-item active"><img src="/cat-meme-theater/assets/posters-keyed/164-925841635918391580.webp" alt="" loading="lazy"><span>4s</span></div>
+    <div class="reel-item"><img src="/cat-meme-theater/assets/posters-keyed/224-934356253930197107.webp" alt="" loading="lazy"><span>4s</span></div>
+    <div class="reel-item"><img src="/cat-meme-theater/assets/posters-keyed/332-670332725814492967.webp" alt="" loading="lazy"><span>5s</span></div>
+    <div class="reel-item"><img src="/cat-meme-theater/assets/posters-keyed/211-921900986252534954.webp" alt="" loading="lazy"><span>5s</span></div>
+    <div class="reel-item"><img src="/cat-meme-theater/assets/posters-keyed/201-455567318574638711.webp" alt="" loading="lazy"><span>7s</span></div>
+    <div class="reel-add">+</div>
+  </div>
+</div>
+
+<!-- 案例剧场 -->
+<section class="demo-area" id="cases">
+  <h2 class="sec-title">大家的 <span class="hl">案例剧场</span></h2>
+  <p class="sec-sub">这里放两个精选案例，外加所有从创作台导出的成片——导出即上墙。</p>
+  <div class="case-status" id="caseStatus">正在搬猫上场…</div>
+  <div class="demo-wrap" id="caseGrid"></div>
+</section>
+
+<!-- 特性 -->
+<section class="feat-area">
+  <h2 class="sec-title">凭什么叫它 <span class="hl">省心</span></h2>
+  <div class="feat-grid">
+    <div class="feat-card">
+      <div class="feat-icon">
+        <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#ff6b35" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5h16v11H4z"/><path d="M8 20h8M12 16v4"/><path d="m9 10 2 2 4-4"/></svg>
+      </div>
+      <h3>AI 拆分镜</h3>
+      <p>一句话创意自动扩写成 6～8 幕带反转的短剧脚本，情绪、节奏、笑点都替你排好。</p>
+    </div>
+    <div class="feat-card">
+      <div class="feat-icon">
+        <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#29b6f6" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="8" r="3.2"/><path d="M3 20c0-3.3 2.7-6 6-6s6 2.7 6 6"/><path d="M17 5.5c1 .8 1.6 2 1.6 3.4M20 3.5c1.7 1.4 2.6 3.3 2.6 5.4"/></svg>
+      </div>
+      <h3>智能选角</h3>
+      <p>从 237 个猫咪素材里按动作和情绪挑演员，不满意随时换，位置大小随手拖。</p>
+    </div>
+    <div class="feat-card">
+      <div class="feat-icon">
+        <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#c29a12" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="16" rx="2"/><circle cx="8.5" cy="9.5" r="1.6"/><path d="m4 17 5-5 5 5 3-3 3 3"/></svg>
+      </div>
+      <h3>AI 画背景</h3>
+      <p>每一幕生成电影级空镜背景，前后景层次和自然光线都不用自己调，也能复用上一幕。</p>
+    </div>
+    <div class="feat-card">
+      <div class="feat-icon">
+        <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#7c3aed" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3 5 6v5.5c0 4.3 2.9 8.3 7 9.5 4.1-1.2 7-5.2 7-9.5V6z"/><path d="m9 12 2 2 4-4"/></svg>
+      </div>
+      <h3>本地出片</h3>
+      <p>合成、字幕、音轨全在你自己电脑上跑，素材和成片都不离开本地，隐私自己拿捏。</p>
+    </div>
+  </div>
+</section>
+
+<!-- 步骤 -->
+<section class="steps-area">
+  <h2 class="sec-title">三步 <span class="hl">开演</span></h2>
+  <div class="steps">
+    <div class="step">
+      <div class="step-num">1</div>
+      <div><h4>写一句故事</h4><p>比如「一只猫第一天上班就把服务器搞崩了」，AI 负责把它扩写成完整剧本。</p></div>
+    </div>
+    <div class="step">
+      <div class="step-num">2</div>
+      <div><h4>挑演员排分镜</h4><p>自动匹配猫咪素材，拖一拖调位置和大小，还能让 AI 给每一幕画背景。</p></div>
+    </div>
+    <div class="step">
+      <div class="step-num">3</div>
+      <div><h4>一键导出成片</h4><p>自动压上字幕和音轨，导出竖屏 mp4，成品立刻出现在上面的案例剧场。</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- 演员阵容 -->
+<section class="cast-area">
+  <h2 class="sec-title">今天的 <span class="hl">演员阵容</span></h2>
+  <p class="sec-sub">237 只猫咪，各种情绪和绝活，总有一只适合演你这出戏。</p>
+  <div class="cast-grid">
+    <div class="cast-card"><div class="cast-pic"><img src="/cat-meme-theater/assets/posters-keyed/164-925841635918391580.webp" alt="菜鸟猫" loading="lazy"></div><div class="cast-name">菜鸟猫</div></div>
+    <div class="cast-card"><div class="cast-pic"><img src="/cat-meme-theater/assets/posters-keyed/219-705798572878652346.webp" alt="委屈小猫" loading="lazy"></div><div class="cast-name">委屈小猫</div></div>
+    <div class="cast-card"><div class="cast-pic"><img src="/cat-meme-theater/assets/posters-keyed/023-1082904672916198336.webp" alt="暴力猫" loading="lazy"></div><div class="cast-name">暴力猫</div></div>
+    <div class="cast-card"><div class="cast-pic"><img src="/cat-meme-theater/assets/posters-keyed/339-865254147166406127.webp" alt="伸爪指责橘猫" loading="lazy"></div><div class="cast-name">伸爪指责橘猫</div></div>
+    <div class="cast-card"><div class="cast-pic"><img src="/cat-meme-theater/assets/posters-keyed/269-1103804189955618824.webp" alt="叉腰扭动小猫" loading="lazy"></div><div class="cast-name">叉腰扭动小猫</div></div>
+    <div class="cast-card"><div class="cast-pic"><img src="/cat-meme-theater/assets/posters-keyed/332-670332725814492967.webp" alt="摊手跳舞奶牛猫" loading="lazy"></div><div class="cast-name">摊手跳舞奶牛猫</div></div>
+    <div class="cast-card"><div class="cast-pic"><img src="/cat-meme-theater/assets/posters-keyed/223-902127369112245825.webp" alt="低头自闭灰猫" loading="lazy"></div><div class="cast-name">低头自闭灰猫</div></div>
+    <div class="cast-card"><div class="cast-pic"><img src="/cat-meme-theater/assets/posters-keyed/285-1088956384940023268.webp" alt="害羞脸红猫头" loading="lazy"></div><div class="cast-name">害羞脸红猫头</div></div>
+    <div class="cast-card"><div class="cast-pic"><img src="/cat-meme-theater/assets/posters-keyed/237-925841635918353395.webp" alt="橘猫贴脸观察" loading="lazy"></div><div class="cast-name">橘猫贴脸观察</div></div>
+    <div class="cast-card"><div class="cast-pic"><img src="/cat-meme-theater/assets/posters-keyed/211-921900986252534954.webp" alt="香蕉装哭泣猫" loading="lazy"></div><div class="cast-name">香蕉装哭泣猫</div></div>
+    <div class="cast-card"><div class="cast-pic"><img src="/cat-meme-theater/assets/posters-keyed/224-934356253930197107.webp" alt="瞪眼惊讶虎斑猫" loading="lazy"></div><div class="cast-name">瞪眼惊讶虎斑猫</div></div>
+    <div class="cast-card"><div class="cast-pic"><img src="/cat-meme-theater/assets/posters-keyed/209-1033365077019771258.webp" alt="悬浮发呆猫头" loading="lazy"></div><div class="cast-name">悬浮发呆猫头</div></div>
+  </div>
+  <span class="cast-more">还有 225 只在创作台里等你翻牌 →</span>
+</section>
+
+<!-- CTA -->
+<section class="cta-area">
+  <div class="cta-banner">
+    <div class="cta-cats">
+      <img src="/cat-meme-theater/assets/posters-keyed/285-1088956384940023268.webp" alt="" loading="lazy">
+      <img src="/cat-meme-theater/assets/posters-keyed/332-670332725814492967.webp" alt="" loading="lazy">
+      <img src="/cat-meme-theater/assets/posters-keyed/339-865254147166406127.webp" alt="" loading="lazy">
+    </div>
+    <h2>剧本都想好了，还等什么？</h2>
+    <p>不用注册，不用联网上传，猫已经在后台催场了。</p>
+    <a href="/cat-meme-theater/" class="cta">马上开演 <span class="bounce">➜</span></a>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+  猫 meme 小剧场 · 本地运行的猫咪短视频工作室<br>
+  素材库在 <a href="/cat-meme-theater/library.html">演员资料库</a> 里随时翻牌
+</footer>
+
+<script>
+(function () {
+  // ---------- 滚动出现 ----------
+  var revealTargets = document.querySelectorAll('.reveal');
+  if ('IntersectionObserver' in window) {
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        if (entry.isIntersecting) { entry.target.classList.add('in'); io.unobserve(entry.target); }
+      });
+    }, { rootMargin: '0px 0px -10% 0px' });
+    revealTargets.forEach(function (el) { io.observe(el); });
+  } else {
+    revealTargets.forEach(function (el) { el.classList.add('in'); });
+  }
+
+  // ---------- 案例剧场 ----------
+  var grid = document.getElementById('caseGrid');
+  var status = document.getElementById('caseStatus');
+  var tagColors = ['#fff3c4', '#d6f0ff', '#ffe3d6', '#e9dcff', '#d8f5e3'];
+  var tagPool = ['反转', '爆笑', '职场', '日常', '悬疑', '温情', '沙雕', '上头'];
+
+  function relativeTime(ms) {
+    if (!ms) return '';
+    var diff = Date.now() - ms;
+    if (diff < 0) return '刚刚';
+    var mins = Math.floor(diff / 60000);
+    if (mins < 1) return '刚刚';
+    if (mins < 60) return mins + ' 分钟前';
+    var hours = Math.floor(mins / 60);
+    if (hours < 24) return hours + ' 小时前';
+    return Math.floor(hours / 24) + ' 天前';
+  }
+
+  function makeTags(index, source) {
+    if (source === 'showcase') {
+      return [tagPool[index % tagPool.length], tagPool[(index + 3) % tagPool.length]];
+    }
+    return ['用户成片'];
+  }
+
+  function buildCard(item, index, showSourceBadge) {
+    var card = document.createElement('div');
+    card.className = 'demo-card';
+
+    var pic = document.createElement('div');
+    pic.className = 'demo-pic';
+
+    var video = document.createElement('video');
+    video.src = item.url;
+    video.playsInline = true;
+    video.preload = 'auto';
+    video.muted = true;
+    video.setAttribute('webkit-playsinline', '');
+    // 首帧当封面：metadata 就绪后跳到 0.4s，逼浏览器解码一帧。
+    video.addEventListener('loadedmetadata', function () {
+      try { video.currentTime = Math.min(0.4, (video.duration || 1) / 2); } catch (e) {}
+    }, { once: true });
+    pic.appendChild(video);
+
+    if (showSourceBadge) {
+      var src = document.createElement('span');
+      src.className = 'demo-src' + (item.source === 'export' ? ' auto' : '');
+      src.textContent = item.source === 'export' ? '导出即上墙' : '精选案例';
+      pic.appendChild(src);
+    }
+
+    var play = document.createElement('button');
+    play.className = 'demo-play';
+    play.type = 'button';
+    play.textContent = '▶';
+    play.setAttribute('aria-label', '播放');
+    pic.appendChild(play);
+
+    function toggle() {
+      if (video.paused) {
+        video.muted = false;
+        video.play().catch(function () { video.muted = true; video.play().catch(function () {}); });
+      } else {
+        video.pause();
+      }
+    }
+    pic.addEventListener('click', toggle);
+    video.addEventListener('play', function () { play.textContent = '❚❚'; });
+    video.addEventListener('pause', function () { play.textContent = '▶'; });
+    video.addEventListener('ended', function () { play.textContent = '▶'; });
+
+    card.appendChild(pic);
+
+    var foot = document.createElement('div');
+    foot.className = 'demo-foot';
+
+    var tags = document.createElement('div');
+    tags.className = 'demo-tags';
+    if (item.title) {
+      var titleTag = document.createElement('span');
+      titleTag.className = 'demo-tag';
+      titleTag.style.setProperty('--tagc', '#fff3c4');
+      titleTag.textContent = item.title;
+      tags.appendChild(titleTag);
+    }
+    makeTags(index, item.source).forEach(function (text, tagIndex) {
+      var tag = document.createElement('span');
+      tag.className = 'demo-tag';
+      tag.style.setProperty('--tagc', tagColors[(index + tagIndex) % tagColors.length]);
+      tag.textContent = text;
+      tags.appendChild(tag);
+    });
+    foot.appendChild(tags);
+
+    var meta = document.createElement('span');
+    meta.className = 'demo-meta';
+    meta.textContent = item.note || relativeTime(item.createdAt);
+    if (item.note) meta.title = item.note;
+    foot.appendChild(meta);
+
+    card.appendChild(foot);
+    return card;
+  }
+
+  function buildEmpty(featuredCount, exportedTotal) {
+    var box = document.createElement('div');
+    box.className = 'case-empty';
+    var heading = document.createElement('h3');
+    heading.textContent = exportedTotal ? '还差两条精选案例' : '案例区还空着，等你投喂';
+    var body = document.createElement('p');
+    body.innerHTML = '把视频丢进 <code>/cat-meme-theater/showcase/</code> 就会自动出现在这里，'
+      + '文件名加数字前缀排顺序，例如 <code>01-菜鸟猫的第一天.mp4</code>。'
+      + '想自定义标题就再建一个 <code>cases.json</code>。<br>'
+      + '另外，从创作台导出的成片会自动上墙，目前已收集 ' + exportedTotal + ' 条。';
+    box.appendChild(heading);
+    box.appendChild(body);
+    return box;
+  }
+
+  fetch('/api/showcase', { headers: { Accept: 'application/json' } })
+    .then(function (res) { if (!res.ok) throw new Error('HTTP ' + res.status); return res.json(); })
+    .then(function (data) {
+      var featured = (data.featured || []);
+      var exported = (data.exported || []);
+      var items = featured.concat(exported);
+      grid.innerHTML = '';
+
+      if (!items.length) {
+        status.textContent = '一个案例都还没有';
+        grid.appendChild(buildEmpty(featured.length, data.exportedTotal || 0));
+        return;
+      }
+
+      status.textContent = featured.length
+        ? '精选案例 ' + featured.length + ' 条 · 用户成片 ' + (data.exportedTotal || 0) + ' 条'
+        : '用户成片 ' + (data.exportedTotal || 0) + ' 条（还没放精选案例）';
+
+      items.slice(0, 12).forEach(function (item, index) {
+        // 只在每类第一条上挂来源角标，避免满屏重复。
+        var showBadge = index === 0 || (featured.length > 0 && index === featured.length);
+        grid.appendChild(buildCard(item, index, showBadge));
+      });
+
+      if (!featured.length) {
+        grid.appendChild(buildEmpty(0, data.exportedTotal || 0));
+      }
+    })
+    .catch(function () {
+      grid.innerHTML = '';
+      status.textContent = '案例加载失败';
+      grid.appendChild(buildEmpty(0, 0));
+    });
+})();
+</script>
+</body>
+</html>

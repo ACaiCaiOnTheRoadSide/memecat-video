@@ -1,0 +1,32 @@
+# 本地密钥与运行数据
+config.yml
+.env
+.env.*
+!.env.example
+.data/
+
+# 依赖与构建产物
+node_modules/
+dist/
+*.log
+
+# 演员素材体积较大，请从素材库下载，不随代码仓库分发
+web/public/cat-meme-theater/assets/*.mp4
+web/public/cat-meme-theater/assets/clips/
+web/public/cat-meme-theater/assets/posters/
+web/public/cat-meme-theater/assets/posters-keyed/
+
+# 用户生成内容
+web/public/cat-meme-theater/generated/
+web/public/cat-meme-theater/exports/
+
+# 本地工具与会话文件
+.monkeyai/
+.ohmyagent/
+.cat-meme-project.json
+PACKAGE-MANIFEST.json
+
+# 系统与编辑器
+.DS_Store
+.vscode/
+.idea/

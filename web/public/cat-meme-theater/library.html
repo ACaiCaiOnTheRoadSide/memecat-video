@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>猫演员资料库 · 猫 meme 小剧场</title>
+  <style>
+    :root{--ink:#181713;--paper:#f6f3e9;--card:#fffdf7;--line:#ddd7c8;--muted:#777267;--purple:#6858ef;--yellow:#ffd84d;--orange:#ff6b35;--shadow:0 14px 40px rgba(41,34,20,.11)}
+    *{box-sizing:border-box}body{margin:0;background:radial-gradient(circle at 8% 0,rgba(255,216,77,.25),transparent 24%),var(--paper);color:var(--ink);font-family:ui-rounded,"SF Pro Rounded","PingFang SC",system-ui,sans-serif;height:100vh;overflow:hidden}button,input,textarea{font:inherit}.topbar{height:68px;padding:0 24px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid rgba(0,0,0,.1);background:rgba(246,243,233,.88);backdrop-filter:blur(14px)}.brand{display:flex;align-items:center;gap:11px;font-size:19px;font-weight:950}.top-actions{display:flex;align-items:center;gap:8px}.mark{width:40px;height:40px;display:grid;place-items:center;border-radius:13px;background:var(--yellow);transform:rotate(-3deg)}.back{color:inherit;text-decoration:none;border:1px solid var(--line);background:#fff;border-radius:999px;padding:9px 14px;font-size:12px;font-weight:850}
+    .layout{height:calc(100vh - 68px);max-width:1500px;margin:auto;padding:16px 22px;display:grid;grid-template-columns:350px minmax(390px,1fr) 350px;gap:16px}.panel{min-height:0;background:rgba(255,253,247,.94);border:1px solid var(--line);border-radius:22px;box-shadow:var(--shadow);overflow:hidden}.head{padding:18px 18px 13px;border-bottom:1px solid var(--line)}.eyebrow{font-size:10px;font-weight:950;letter-spacing:1.4px;color:var(--orange)}h1,h2{margin:4px 0 0;letter-spacing:-.6px}h1{font-size:20px}h2{font-size:18px}.sub{margin-top:5px;color:var(--muted);font-size:10px}.search{margin-top:13px;width:100%;border:1px solid var(--line);background:#fff;border-radius:12px;padding:10px 12px;outline:none;font-size:11px}.search:focus{border-color:var(--purple)}.filters{display:flex;gap:5px;overflow:auto;margin-top:8px;scrollbar-width:none}.filters::-webkit-scrollbar{display:none}.filter{white-space:nowrap;border:1px solid var(--line);border-radius:999px;padding:5px 9px;background:#fff;font-size:9px;cursor:pointer}.filter.active{background:var(--ink);color:#fff;border-color:var(--ink)}
+    .library{height:calc(100% - 151px);padding:12px;overflow-y:auto;scrollbar-width:thin}.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:8px}.clip{padding:0;border:2px solid transparent;background:#31d557;border-radius:13px;overflow:hidden;cursor:pointer;position:relative;aspect-ratio:1;transition:.16s}.clip:hover{transform:translateY(-2px)}.clip.active{border-color:var(--orange);box-shadow:0 0 0 3px rgba(255,107,53,.14)}.clip img{width:100%;height:100%;object-fit:cover;display:block}.clip-info{position:absolute;inset:auto 5px 5px;padding:5px 6px;border-radius:7px;color:#fff;background:rgba(10,10,10,.65);backdrop-filter:blur(4px);text-align:left}.clip-info b{display:block;font-size:9px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.clip-info small{font-size:8px;opacity:.72}.empty{grid-column:1/-1;text-align:center;color:var(--muted);padding:40px 10px;font-size:11px}
+    .viewer{display:flex;flex-direction:column;background:#201e1a}.viewer-head{height:62px;padding:0 18px;display:flex;align-items:center;justify-content:space-between;color:#fff;border-bottom:1px solid rgba(255,255,255,.1)}.viewer-title b{display:block;font-size:13px}.viewer-title small{color:rgba(255,255,255,.55);font-size:9px}.nav{display:flex;gap:6px}.nav button{width:33px;height:33px;border:1px solid rgba(255,255,255,.15);border-radius:9px;background:rgba(255,255,255,.07);color:#fff;cursor:pointer}.nav .sound{width:auto;padding:0 10px;font-size:9px;font-weight:850}.nav .sound.on{background:#625af6;border-color:#7971ff}.video-wrap{flex:1;min-height:0;display:grid;place-items:center;padding:18px;background-image:radial-gradient(rgba(255,255,255,.05) 1px,transparent 1px);background-size:18px 18px}.video-frame{height:min(68vh,680px);max-height:100%;aspect-ratio:9/16;border:6px solid #0d0d0c;border-radius:22px;overflow:hidden;background:#21d64a;box-shadow:0 25px 60px rgba(0,0,0,.4);position:relative}.video-frame video{width:100%;height:100%;object-fit:contain;display:block}.video-id{position:absolute;left:10px;top:10px;padding:6px 9px;border-radius:999px;background:rgba(0,0,0,.58);color:#fff;font-size:9px;font-weight:900}.viewer-foot{padding:11px 18px;color:rgba(255,255,255,.5);border-top:1px solid rgba(255,255,255,.1);font-size:9px;text-align:center}
+    .editor{display:flex;flex-direction:column}.form{padding:17px;overflow:auto;flex:1}.field{margin-bottom:16px}.field label{display:flex;justify-content:space-between;margin-bottom:7px;font-size:11px;font-weight:850}.field label small{font-weight:500;color:var(--muted)}.field input,.field textarea{width:100%;border:1px solid var(--line);background:#fff;border-radius:12px;padding:10px 11px;outline:none;font-size:11px;line-height:1.55}.field textarea{min-height:150px;resize:vertical}.field input:focus,.field textarea:focus{border-color:var(--purple);box-shadow:0 0 0 3px rgba(104,88,239,.09)}.quick-tags{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}.tag{border:1px solid var(--line);background:#fff;border-radius:999px;padding:5px 8px;font-size:9px;cursor:pointer}.tag.on{background:#eeeaff;color:#5140dd;border-color:#bcb3ff}.notice{padding:11px;border-radius:12px;background:#f1eee5;color:var(--muted);font-size:9px;line-height:1.55}.actions{padding:14px 17px 18px;border-top:1px solid var(--line);background:#fffdf7}.action-row{display:grid;grid-template-columns:auto 1fr;gap:8px}.save,.delete{border:0;border-radius:13px;padding:13px;font-weight:900;cursor:pointer}.save{background:var(--ink);color:#fff}.delete{background:#fff0f0;color:#c83d3d;border:1px solid #f2cccc}.save:disabled,.delete:disabled{opacity:.55}.status{text-align:center;margin-top:8px;min-height:14px;font-size:9px;color:var(--muted)}.status.dirty{color:var(--orange)}.toast{position:fixed;left:50%;bottom:24px;transform:translate(-50%,25px);opacity:0;background:#171713;color:#fff;border-radius:999px;padding:10px 16px;font-size:11px;transition:.2s}.toast.show{opacity:1;transform:translate(-50%,0)}
+    :root{--ink:#183024;--paper:#f1f6f1;--card:#fff;--line:#dce8de;--muted:#708078;--purple:#58b86b;--yellow:#8bd878;--orange:#58b86b;--shadow:0 10px 28px rgba(42,80,52,.07)}
+    body{background:radial-gradient(circle at 7% 0,rgba(103,196,119,.16),transparent 30%),#f1f6f1}
+    .topbar{background:rgba(252,255,251,.95);border-color:#d9e6db}.mark{border-radius:11px;background:#58b86b;color:#fff;transform:none}.back{border-color:#d9e6db;border-radius:999px}.panel{border-color:#dae6dc;border-radius:18px}.head{border-color:#e0ebe2}.eyebrow{color:#399150}.search,.field input,.field textarea{border-color:#d9e6db;border-radius:11px;background:#f9fcf9}.search:focus,.field input:focus,.field textarea:focus{border-color:#58b86b;box-shadow:0 0 0 3px rgba(88,184,107,.11)}.filter{border-color:#d9e6db;border-radius:999px}.filter.active{border-color:#58b86b;background:#58b86b}.clip{border-radius:13px}.clip.active{border-color:#58b86b;box-shadow:0 0 0 3px rgba(88,184,107,.13)}.viewer{border-color:#d6e3d8;background:#f3f8f2}.viewer-head{background:#fff;color:#203b2a;border-color:#dde8df}.viewer-title small{color:#708078}.nav button{border-color:#d6e3d8;border-radius:10px;background:#f5f9f5;color:#4a6252}.nav .sound.on{border-color:#58b86b;background:#58b86b}.video-wrap{background-color:#f3f8f2;background-image:linear-gradient(rgba(70,126,82,.05) 1px,transparent 1px),linear-gradient(90deg,rgba(70,126,82,.05) 1px,transparent 1px);background-size:24px 24px}.video-frame{border-color:#22452e;border-radius:22px;box-shadow:0 24px 54px rgba(54,91,61,.18)}.viewer-foot{background:#fff;color:#708078;border-color:#dde8df}.quick-tags .tag.on{border-color:#58b86b;background:#eaf7ec;color:#318448}.save{background:#58b86b}.delete{border-radius:12px}.save{border-radius:12px}
+    :root{--ink:#162019;--paper:#f1f2ee;--card:#fff;--line:#dde1da;--muted:#737b75;--purple:#214f38;--yellow:#a8ce78;--orange:#214f38;--shadow:0 10px 32px rgba(29,49,36,.06)}
+    body{background:#f1f2ee;color:#162019;font-family:-apple-system,BlinkMacSystemFont,"SF Pro Display","PingFang SC",sans-serif}.topbar{background:rgba(250,251,248,.96);border-color:#dfe2dc}.mark{background:#173f2d}.back{border-color:#dfe2dc;background:#f8f9f6;color:#556159}.panel{border-color:#dfe2dc;box-shadow:var(--shadow)}.head{border-color:#e5e8e3}.eyebrow{color:#5f7566}.search,.field input,.field textarea{border-color:#dfe3dd;background:#f8f9f6}.search:focus,.field input:focus,.field textarea:focus{border-color:#6f8976;box-shadow:0 0 0 3px rgba(33,79,56,.08)}.filter{border-color:#dfe3dd;background:#fafbf9}.filter.active{border-color:#173f2d;background:#173f2d}.clip{box-shadow:0 2px 9px rgba(34,54,40,.07)}.clip.active{border-color:#214f38;box-shadow:0 0 0 3px rgba(33,79,56,.11)}.viewer{border-color:#d9ded8;background:#ecefe9}.viewer-head{border-color:#e2e5df;background:#fbfcfa;color:#253029}.nav button{border-color:#dde1dc;background:#f5f7f4;color:#4f5b53}.nav .sound.on{border-color:#173f2d;background:#173f2d}.video-wrap{background-color:#ecefe9;background-image:radial-gradient(circle at 50% 44%,rgba(168,206,120,.14),transparent 48%)}.video-frame{border-color:#233028;box-shadow:0 24px 55px rgba(31,48,36,.16)}.viewer-foot{border-color:#e2e5df;background:#fbfcfa;color:#737b75}.quick-tags .tag.on{border-color:#799281;background:#eaf1ea;color:#214f38}.save{background:#173f2d}
+    @media(max-width:1050px){body{height:auto;overflow:auto}.layout{height:auto;grid-template-columns:310px 1fr}.editor{grid-column:1/-1;min-height:600px}.library{height:650px}.viewer{min-height:750px}}@media(max-width:680px){.layout{display:flex;flex-direction:column;padding:10px}.panel{min-height:620px}.viewer{order:-1}.video-frame{height:540px}.topbar{padding:0 14px}}
+    /* ===== 与落地页/创作台一致：新粗野主义贴纸风（只覆盖视觉，不动布局） ===== */
+    :root{--ink:#1d1d2b;--paper:#fff9ef;--card:#fff;--line:#1d1d2b;--muted:#6b6b7d;--yellow:#ffd166;--orange:#ff6b35;--purple:#7c3aed;--red:#ff4d4d;--shadow:none;
+      --pastel-orange:#ffe3d6;--pastel-blue:#d6f0ff;--pastel-yellow:#fff3c4;--pastel-purple:#e9dcff;--pastel-green:#d8f5e3;
+      --bd:3px;--pop:7px 7px 0 var(--ink);--pop-sm:4px 4px 0 var(--ink);--pop-xs:3px 3px 0 var(--ink)}
+    body{background:var(--paper);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","Segoe UI",sans-serif}
+    body::before{content:"";position:fixed;inset:0;z-index:0;pointer-events:none;background-image:radial-gradient(rgba(29,29,43,.07) 1px,transparent 1px);background-size:22px 22px}
+    .topbar{height:68px;background:rgba(255,249,239,.93);backdrop-filter:blur(10px);border-bottom:var(--bd) solid var(--ink);position:relative;z-index:2}
+    .brand{font-weight:900;letter-spacing:-.4px}
+    .mark{width:40px;height:40px;border:var(--bd) solid var(--ink);border-radius:10px;background:var(--yellow);color:var(--ink);font-weight:900;box-shadow:var(--pop-xs);transform:rotate(-4deg)}
+    .back{border:2px solid var(--ink);border-radius:8px;background:#fff;color:var(--ink);font-weight:800;box-shadow:var(--pop-xs);cursor:pointer}
+    .back:hover{background:var(--yellow);transform:translateY(-1px)}
+    .layout{position:relative;z-index:1}
+    .panel{border:var(--bd) solid var(--ink);border-radius:14px;background:#fff;box-shadow:var(--pop)}
+    .head{border-bottom:2px solid var(--ink);background:var(--pastel-orange)}
+    .viewer .head,.editor .head{background:var(--pastel-purple)}
+    .eyebrow{color:var(--ink);font-weight:900;letter-spacing:1.6px;opacity:.6}
+    h1,h2{font-family:inherit;font-weight:900;letter-spacing:-.6px}
+    .sub{color:var(--muted);font-weight:700}
+    .search,.field input,.field textarea{border:2px solid var(--ink);border-radius:10px;background:var(--paper);color:var(--ink)}
+    .search:focus,.field input:focus,.field textarea:focus{border-color:var(--ink);background:#fff;box-shadow:0 0 0 3px var(--yellow)}
+    .filter{border:2px solid var(--ink);border-radius:8px;background:#fff;color:var(--ink);font-weight:800;box-shadow:var(--pop-xs)}
+    .filter:hover{transform:translateY(-2px);box-shadow:var(--pop-sm)}
+    .filter.active{background:var(--ink);border-color:var(--ink);color:#fff;box-shadow:var(--pop-xs)}
+    .clip{border:2px solid var(--ink);border-radius:9px;background:#fff;box-shadow:none}
+    .clip:hover{transform:translateY(-3px);box-shadow:var(--pop-xs)}
+    .clip.active{border-color:var(--ink);box-shadow:0 0 0 3px var(--yellow)}
+    .clip-info{border-radius:5px;background:var(--ink)}
+    .clip-info small{opacity:.7;font-weight:700}
+    .empty{color:var(--muted);font-weight:700}
+    .viewer{border:var(--bd) solid var(--ink);background:var(--ink)}
+    .viewer-head{background:var(--ink);border-bottom:2px solid rgba(255,255,255,.16)}
+    .viewer-title b{font-weight:900}.viewer-title small{color:rgba(255,255,255,.6);font-weight:700}
+    .nav button{border:2px solid rgba(255,255,255,.28);border-radius:8px;background:#2b2b3a;color:#fff;font-weight:800}
+    .nav button:hover{border-color:var(--yellow);background:#3a3a4d}
+    .nav .sound.on{background:var(--yellow);border-color:var(--yellow);color:var(--ink)}
+    .video-wrap{background-color:#232334;background-image:radial-gradient(rgba(255,255,255,.09) 1px,transparent 1px);background-size:20px 20px}
+    .video-frame{border:var(--bd) solid var(--ink);border-radius:20px;box-shadow:9px 9px 0 var(--yellow)}
+    .video-id{border:2px solid #fff;border-radius:999px;background:rgba(29,29,43,.82);font-weight:900}
+    .viewer-foot{background:var(--ink);border-top:2px solid rgba(255,255,255,.16);color:rgba(255,255,255,.6);font-weight:700}
+    .field label{color:var(--ink);font-weight:900}
+    .field label small{color:var(--muted);font-weight:700}
+    .tag{border:2px solid var(--ink);border-radius:8px;background:#fff;color:var(--ink);font-weight:800;box-shadow:var(--pop-xs)}
+    .tag:hover{transform:translateY(-2px);box-shadow:var(--pop-sm)}
+    .tag.on{background:var(--yellow);border-color:var(--ink);color:var(--ink)}
+    .notice{border:2px solid var(--ink);border-radius:10px;background:var(--pastel-yellow);color:#5c5330;font-weight:700}
+    .notice b{color:var(--ink)}
+    .actions{border-top:var(--bd) solid var(--ink);background:var(--paper)}
+    .save,.delete{border:2px solid var(--ink);border-radius:10px;font-weight:900;box-shadow:var(--pop-xs)}
+    .save{background:var(--ink);color:#fff}
+    .delete{background:#fff;color:var(--red)}
+    .save:hover,.delete:hover{transform:translateY(-2px);box-shadow:var(--pop-sm)}
+    .save:disabled,.delete:disabled{box-shadow:none;transform:none}
+    .status{color:var(--muted);font-weight:800}
+    .status.dirty{color:var(--orange)}
+    .toast{border:2px solid var(--ink);border-radius:999px;background:var(--ink);color:#fff;font-weight:800;box-shadow:var(--pop-xs)}
+    button:focus-visible,input:focus-visible,textarea:focus-visible{outline:3px solid var(--yellow);outline-offset:2px}
+    .library{scrollbar-color:var(--ink) transparent}
+  </style>
+</head>
+<body>
+  <header class="topbar"><div class="brand"><div class="mark">=^</div><span>猫演员资料库</span></div><div class="top-actions"><button class="back" id="adminUnlock">管理员解锁</button><a class="back" href="./">返回剧场</a></div></header>
+  <main class="layout">
+    <section class="panel">
+      <div class="head"><div class="eyebrow">MEME CAST LIBRARY</div><h1>校准演员资料</h1><div class="sub"><span id="count">0</span> 个素材 · 保存后立即用于 AI 选角</div><input class="search" id="search" placeholder="搜索名称、描述或编号"><div class="filters" id="filters"><button class="filter active" data-tag="全部">全部</button><button class="filter" data-tag="开心">开心</button><button class="filter" data-tag="震惊">震惊</button><button class="filter" data-tag="崩溃">崩溃</button><button class="filter" data-tag="跳舞">跳舞</button><button class="filter" data-tag="说话">说话</button><button class="filter" data-tag="待校准">待校准</button></div></div>
+      <div class="library"><div class="grid" id="grid"></div></div>
+    </section>
+    <section class="panel viewer">
+      <div class="viewer-head"><div class="viewer-title"><b id="viewerName">选择一位演员</b><small id="viewerDesc">视频会自动循环播放</small></div><div class="nav"><button class="sound" id="sound" title="切换原视频声音">开启声音</button><button id="prev" title="上一个">←</button><button id="next" title="下一个">→</button></div></div>
+      <div class="video-wrap"><div class="video-frame"><video id="video" muted loop autoplay playsinline></video><span class="video-id" id="videoId">---</span></div></div>
+      <div class="viewer-foot">请根据视频实际动作、表情和情绪填写资料，而不是根据文件名猜测。</div>
+    </section>
+    <aside class="panel editor">
+      <div class="head"><div class="eyebrow">ACTOR PROFILE</div><h2>编辑素材介绍</h2><div class="sub">这些信息会直接提供给 Agnes 进行分镜选角</div></div>
+      <div class="form">
+        <div class="field"><label><span>演员名称</span><small>1～30 字</small></label><input id="name" maxlength="30" placeholder="例如：惊恐猫"></div>
+        <div class="field"><label><span>视频画面描述</span><small><span id="descCount">0</span> / 600</small></label><textarea id="description" maxlength="600" placeholder="具体描述主体、动作变化、表情、镜头和适合的剧情用途"></textarea></div>
+        <div class="field"><label><span>动作与情绪标签</span><small>使用逗号分隔</small></label><input id="tags" maxlength="240" placeholder="例如：震惊, 后退, 发现真相"><div class="quick-tags" id="quickTags"><button class="tag">开心</button><button class="tag">震惊</button><button class="tag">崩溃</button><button class="tag">跳舞</button><button class="tag">说话</button><button class="tag">嫌弃</button><button class="tag">庆祝</button><button class="tag">紧张</button></div></div>
+        <div class="notice"><b>建议写法</b><br>先说明画面里是谁，再写动作如何变化、主要情绪，以及最适合放在故事的哪个时刻。描述越具体，AI 选角越准确。</div>
+      </div>
+      <div class="actions"><div class="action-row"><button class="delete" id="delete">删除素材</button><button class="save" id="save">保存并更新 AI 索引</button></div><div class="status" id="status">选择素材后开始编辑</div></div>
+    </aside>
+  </main>
+  <div class="toast" id="toast"></div>
+  <script>
+    const $=s=>document.querySelector(s);let clips=[],selected=null,filter='全部',dirty=false,soundOn=false,adminToken=localStorage.getItem('cat-meme-admin-token')||'';
+    const adminHeaders=()=>({'Content-Type':'application/json','X-Admin-Token':adminToken});
+    function updateAdminState(){const unlocked=Boolean(adminToken);$('#adminUnlock').textContent=unlocked?'管理员已解锁':'管理员解锁';$('#save').disabled=!unlocked;$('#delete').disabled=!unlocked;if(!unlocked)setStatus('只读模式 · 管理员解锁后可修改')}
+    async function unlockAdmin(){const token=prompt('请输入 config.yml 中配置的 admin.token');if(!token)return;const r=await fetch('/api/admin/check',{method:'POST',headers:{'X-Admin-Token':token}});if(!r.ok){toast('管理员令牌无效');return}adminToken=token;localStorage.setItem('cat-meme-admin-token',token);updateAdminState();toast('管理员权限已解锁')} 
+    async function load(){const r=await fetch('/api/clips');const data=await r.json();clips=data.clips||[];render();if(clips.length)select(clips[0].id)}
+    function visible(){const q=$('#search').value.trim().toLowerCase();return clips.filter(c=>(filter==='全部'||c.tags.includes(filter))&&(!q||`${c.id} ${c.name} ${c.description} ${c.tags.join(' ')}`.toLowerCase().includes(q)))}
+    function render(){const list=visible(),grid=$('#grid');$('#count').textContent=list.length;grid.innerHTML='';if(!list.length){grid.innerHTML='<div class="empty">没有找到符合条件的素材</div>';return}list.forEach(c=>{const b=document.createElement('button');b.className='clip'+(selected?.id===c.id?' active':'');b.dataset.id=c.id;b.innerHTML=`<img src="${c.poster}" loading="lazy" alt=""><div class="clip-info"><b>${c.name}</b><small>#${c.id}</small></div>`;b.onclick=()=>select(c.id);grid.append(b)})}
+    function select(id){const next=clips.find(c=>c.id===id);if(!next)return;if(dirty&&!confirm('当前修改尚未保存，确定切换素材吗？'))return;selected=next;dirty=false;$('#video').src=next.src;$('#video').muted=!soundOn;$('#video').play().catch(()=>{});$('#videoId').textContent='#'+next.id;$('#viewerName').textContent=next.name;$('#viewerDesc').textContent=next.description.slice(0,34)+(next.description.length>34?'…':'');$('#name').value=next.name;$('#description').value=next.description;$('#descCount').textContent=next.description.length;$('#tags').value=next.tags.filter(x=>x!=='全部').join(', ');syncQuickTags();setStatus(adminToken?'资料已同步':'只读模式 · 管理员解锁后可修改');render()}
+    function setDirty(){if(!selected)return;dirty=true;setStatus('有未保存的修改',true);syncQuickTags()}
+    function setStatus(text,isDirty=false){const s=$('#status');s.textContent=text;s.classList.toggle('dirty',isDirty)}
+    function tagValues(){return $('#tags').value.split(/[,，]/).map(x=>x.trim()).filter(Boolean)}
+    function syncQuickTags(){const values=tagValues();document.querySelectorAll('.tag').forEach(t=>t.classList.toggle('on',values.includes(t.textContent)))}
+    async function save(){if(!selected||!adminToken){toast('请先解锁管理员权限');return}const body={name:$('#name').value.trim(),description:$('#description').value.trim(),tags:tagValues()};$('#save').disabled=true;setStatus('正在保存…');try{const r=await fetch('/api/clips/'+selected.id,{method:'PUT',headers:adminHeaders(),body:JSON.stringify(body)});const data=await r.json();if(!r.ok)throw new Error(data.error||'保存失败');Object.assign(selected,data.clip);dirty=false;setStatus('已保存，AI 选角索引同步完成');$('#viewerName').textContent=selected.name;render();toast('素材 #'+selected.id+' 已更新')}catch(e){setStatus(e.message,true)}finally{updateAdminState()}}
+    async function deleteSelected(){
+      if(!selected||!adminToken){toast('请先解锁管理员权限');return}const clip=selected,index=clips.findIndex(c=>c.id===clip.id);
+      if(!confirm(`确定删除素材 #${clip.id}「${clip.name}」吗？\n\n将从应用素材库中删除视频、缩略图和 AI 索引。此操作不可撤销，但不会影响项目外部的原始备份。`))return;
+      $('#delete').disabled=true;setStatus('正在删除…');
+      try{const r=await fetch('/api/clips/'+clip.id,{method:'DELETE',headers:{'X-Admin-Token':adminToken}});const data=await r.json();if(!r.ok)throw new Error(data.error||'删除失败');clips.splice(index,1);selected=null;dirty=false;render();if(clips.length)select(clips[Math.min(index,clips.length-1)].id);else{$('#video').removeAttribute('src');$('#video').load();setStatus('素材库已清空')}toast(`素材 #${clip.id} 已删除`)}catch(e){setStatus(e.message,true)}finally{updateAdminState()}
+    }
+    function move(step){if(!selected)return;const list=visible(),i=list.findIndex(c=>c.id===selected.id);select(list[(i+step+list.length)%list.length].id)}
+    function toast(msg){const t=$('#toast');t.textContent=msg;t.classList.add('show');setTimeout(()=>t.classList.remove('show'),1800)}
+    $('#sound').onclick=()=>{soundOn=!soundOn;const video=$('#video');video.muted=!soundOn;$('#sound').textContent=soundOn?'关闭声音':'开启声音';$('#sound').classList.toggle('on',soundOn);video.play().catch(()=>{});toast(soundOn?'已开启原视频声音':'已关闭原视频声音')};$('#search').oninput=render;$('#filters').onclick=e=>{const b=e.target.closest('.filter');if(!b)return;filter=b.dataset.tag;document.querySelectorAll('.filter').forEach(x=>x.classList.toggle('active',x===b));render()};$('#name').oninput=setDirty;$('#description').oninput=e=>{$('#descCount').textContent=e.target.value.length;setDirty()};$('#tags').oninput=setDirty;$('#quickTags').onclick=e=>{const b=e.target.closest('.tag');if(!b)return;let values=tagValues(),tag=b.textContent;values=values.includes(tag)?values.filter(x=>x!==tag):[...values,tag];$('#tags').value=values.join(', ');setDirty()};$('#adminUnlock').onclick=unlockAdmin;$('#save').onclick=save;$('#delete').onclick=deleteSelected;$('#prev').onclick=()=>move(-1);$('#next').onclick=()=>move(1);document.addEventListener('keydown',e=>{if((e.metaKey||e.ctrlKey)&&e.key==='s'){e.preventDefault();save()}});window.addEventListener('beforeunload',e=>{if(dirty){e.preventDefault();e.returnValue=''}});updateAdminState();load().catch(()=>setStatus('素材库加载失败',true));
+  </script>
+</body>
+</html>

@@ -1,0 +1,4181 @@
+[
+  {
+    "id": "000",
+    "name": "跳舞小猫",
+    "src": "assets/clips/000-1005499054335276850.mp4",
+    "poster": "assets/posters-keyed/000-1005499054335276850.webp",
+    "tags": [
+      "全部",
+      "嫌弃",
+      "犯贱",
+      "跳舞"
+    ],
+    "description": "一只灰白小猫在纯绿幕前抬起前爪，身体随着节奏左右晃，像在跳舞。",
+    "hasAudio": true,
+    "meanVolumeDb": -17.2,
+    "maxVolumeDb": -2.3,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "002",
+    "name": "情侣热舞小猫",
+    "src": "assets/clips/002-977140450429945340.mp4",
+    "poster": "assets/posters-keyed/002-977140450429945340.webp",
+    "tags": [
+      "全部",
+      "开心",
+      "甜蜜",
+      "跳舞"
+    ],
+    "description": "两只小猫在绿幕前拥抱、贴脸，其中一只穿着白色小裙子，动作像在跳舞或撒娇。",
+    "hasAudio": true,
+    "meanVolumeDb": -15.9,
+    "maxVolumeDb": -2.5,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "004",
+    "name": "嬉闹猫",
+    "src": "assets/clips/004-977140450429805428.mp4",
+    "poster": "assets/posters-keyed/004-977140450429805428.webp",
+    "tags": [
+      "全部",
+      "开心",
+      "跳舞"
+    ],
+    "description": "一只灰猫和一只白猫在绿幕前站立挥爪，随后抱在一起滚到侧面。",
+    "hasAudio": true,
+    "meanVolumeDb": -16.2,
+    "maxVolumeDb": -2.8,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "007",
+    "name": "虔诚又好笑小猫",
+    "src": "assets/clips/007-917819599079476381.mp4",
+    "poster": "assets/posters-keyed/007-917819599079476381.webp",
+    "tags": [
+      "全部",
+      "跳舞"
+    ],
+    "description": "同一只跳舞小猫把前爪换成托盘，托着一盘装饰过的食物或供品，在绿幕前左右晃。",
+    "hasAudio": true,
+    "meanVolumeDb": -17.2,
+    "maxVolumeDb": -2.5,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "008",
+    "name": "可怜猫",
+    "src": "assets/clips/008-1051027631776626539.mp4",
+    "poster": "assets/posters-keyed/008-1051027631776626539.webp",
+    "tags": [
+      "全部",
+      "可怜"
+    ],
+    "description": "一只圆脸猫的大头贴在绿幕中央，黑眼睛直盯镜头，几乎没有身体动作。",
+    "hasAudio": true,
+    "meanVolumeDb": -23.6,
+    "maxVolumeDb": -12.7,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "011",
+    "name": "双人舞蹈嘚瑟小猫",
+    "src": "assets/clips/011-997688123720932165.mp4",
+    "poster": "assets/posters-keyed/011-997688123720932165.webp",
+    "tags": [
+      "全部",
+      "开心",
+      "跳舞"
+    ],
+    "description": "一只小猫先单独站在绿幕上，随后第二只从旁边加入，两只一起小幅摆动。",
+    "hasAudio": true,
+    "meanVolumeDb": -19.2,
+    "maxVolumeDb": -10.6,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "012",
+    "name": "俏皮小猫",
+    "src": "assets/clips/012-953285446146766498.mp4",
+    "poster": "assets/posters-keyed/012-953285446146766498.webp",
+    "tags": [
+      "全部",
+      "开心",
+      "跳舞",
+      "庆祝"
+    ],
+    "description": "两只戴绿色帽子的小猫并排跳舞，背景从绿幕过渡到淡黄色光晕。",
+    "hasAudio": true,
+    "meanVolumeDb": -16.9,
+    "maxVolumeDb": -3.2,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "017",
+    "name": "撒娇猫",
+    "src": "assets/clips/017-878131627372602372.mp4",
+    "poster": "assets/posters-keyed/017-878131627372602372.webp",
+    "tags": [
+      "全部",
+      "开心",
+      "撒娇"
+    ],
+    "description": "橘猫大头仰起，眼睛眯起，嘴巴大张，大声说要抱抱。",
+    "hasAudio": true,
+    "meanVolumeDb": -25.5,
+    "maxVolumeDb": -10.9,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "018",
+    "name": "软萌小猫",
+    "src": "assets/clips/018-970314682257398997.mp4",
+    "poster": "assets/posters-keyed/018-970314682257398997.webp",
+    "tags": [
+      "全部",
+      "开心",
+      "跳舞"
+    ],
+    "description": "两只很小的灰白小猫在绿幕上张开爪子，像牵手跳舞，画面带 CapCut 水印。",
+    "hasAudio": true,
+    "meanVolumeDb": -6.8,
+    "maxVolumeDb": 0.0,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "021",
+    "name": "拳击嘚瑟猫",
+    "src": "assets/clips/021-1142929211714182907.mp4",
+    "poster": "assets/posters-keyed/021-1142929211714182907.webp",
+    "tags": [
+      "全部",
+      "嘚瑟",
+      "自嗨"
+    ],
+    "description": "一只黑白猫用后腿站立，先捂眼，再握拳，最后张嘴像在唱。",
+    "hasAudio": true,
+    "meanVolumeDb": -14.5,
+    "maxVolumeDb": 0.0,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "023",
+    "name": "暴力猫",
+    "src": "assets/clips/023-1082904672916198336.mp4",
+    "poster": "assets/posters-keyed/023-1082904672916198336.webp",
+    "tags": [
+      "全部",
+      "崩溃",
+      "暴打"
+    ],
+    "description": "两只猫在绿幕前挤在一起，一只坐着回头，一只站着甩尾站着暴打另一只。",
+    "hasAudio": true,
+    "meanVolumeDb": -30.7,
+    "maxVolumeDb": -2.3,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "027",
+    "name": "戏剧化猫",
+    "src": "assets/clips/027-1067775392894792658.mp4",
+    "poster": "assets/posters-keyed/027-1067775392894792658.webp",
+    "tags": [
+      "全部",
+      "说话"
+    ],
+    "description": "一只灰猫直立起来，张大嘴，双臂张开又收回，像在高声唱歌或呐喊。",
+    "hasAudio": true,
+    "meanVolumeDb": -14.6,
+    "maxVolumeDb": -4.9,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "028",
+    "name": "摇摆猫",
+    "src": "assets/clips/028-985021749865012645.mp4",
+    "poster": "assets/posters-keyed/028-985021749865012645.webp",
+    "tags": [
+      "全部",
+      "嘚瑟",
+      "开心",
+      "前后摇摆"
+    ],
+    "description": "一只棕猫趴成一条，侧头盯着镜头，身体几乎不动。",
+    "hasAudio": true,
+    "meanVolumeDb": -23.5,
+    "maxVolumeDb": -5.7,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "030",
+    "name": "滑稽萌宠",
+    "src": "assets/clips/030-1031535489657390676.mp4",
+    "poster": "assets/posters-keyed/030-1031535489657390676.webp",
+    "tags": [
+      "全部",
+      "跳舞"
+    ],
+    "description": "一只深色小老鼠或仓鼠直立，张开手臂随着节奏摆动。",
+    "hasAudio": true,
+    "meanVolumeDb": -19.7,
+    "maxVolumeDb": -9.6,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "031",
+    "name": "可爱小猫",
+    "src": "assets/clips/031-1052646112919664465.mp4",
+    "poster": "assets/posters-keyed/031-1052646112919664465.webp",
+    "tags": [
+      "全部",
+      "开心",
+      "跳舞"
+    ],
+    "description": "灰白小猫在绿幕前反复抬爪摇摆，和 000 号是同一类跳舞小猫素材。",
+    "hasAudio": true,
+    "meanVolumeDb": -17.2,
+    "maxVolumeDb": -2.3,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "035",
+    "name": "友好小猫",
+    "src": "assets/clips/035-1001276929638637900.mp4",
+    "poster": "assets/posters-keyed/035-1001276929638637900.webp",
+    "tags": [
+      "全部",
+      "开心"
+    ],
+    "description": "一只浅灰小猫直立，一只前爪向外挥，像在打招呼或保持平衡。",
+    "hasAudio": true,
+    "meanVolumeDb": -15.4,
+    "maxVolumeDb": -2.1,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "036",
+    "name": "兴奋狗",
+    "src": "assets/clips/036-942589396997524212.mp4",
+    "poster": "assets/posters-keyed/036-942589396997524212.webp",
+    "tags": [
+      "全部",
+      "开心",
+      "傻蠢"
+    ],
+    "description": "一只白棕杰克罗素梗在绿幕前跃起，舌头伸出，前腿张开。",
+    "hasAudio": true,
+    "meanVolumeDb": -24.7,
+    "maxVolumeDb": -2.3,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "038",
+    "name": "好斗猫",
+    "src": "assets/clips/038-1112037333012177932.mp4",
+    "poster": "assets/posters-keyed/038-1112037333012177932.webp",
+    "tags": [
+      "全部"
+    ],
+    "description": "几只猫在绿幕上扭打，中间一帧有猫举起一把剑，随后又变回推搡。",
+    "hasAudio": true,
+    "meanVolumeDb": -29.6,
+    "maxVolumeDb": -8.5,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "039",
+    "name": "警觉萌宠",
+    "src": "assets/clips/039-915075218039890990.mp4",
+    "poster": "assets/posters-keyed/039-915075218039890990.webp",
+    "tags": [
+      "全部",
+      "震惊"
+    ],
+    "description": "一只土拨鼠先直立，再切到面部特写，眼睛圆睁看着前方。",
+    "hasAudio": true,
+    "meanVolumeDb": -18.7,
+    "maxVolumeDb": -4.6,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "040",
+    "name": "古怪角色",
+    "src": "assets/clips/040-1004162048191070551.mp4",
+    "poster": "assets/posters-keyed/040-1004162048191070551.webp",
+    "tags": [
+      "全部",
+      "跳舞",
+      "说话",
+      "静音音轨"
+    ],
+    "description": "一只鳄鱼直立摆动身体和尾巴，像在跳舞，底部有水印。音轨基本是静音。",
+    "hasAudio": true,
+    "meanVolumeDb": -90.3,
+    "maxVolumeDb": -90.3,
+    "hasAudibleAudio": false
+  },
+  {
+    "id": "041",
+    "name": "委屈人物",
+    "src": "assets/clips/041-960885270497492591.mp4",
+    "poster": "assets/posters-keyed/041-960885270497492591.webp",
+    "tags": [
+      "全部",
+      "崩溃",
+      "说话"
+    ],
+    "description": "一名光头男子面部特写，从张嘴说到闭眼低头，眼角有泪，背景是绿幕。",
+    "hasAudio": true,
+    "meanVolumeDb": -22.5,
+    "maxVolumeDb": -2.9,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "042",
+    "name": "冷漠人物",
+    "src": "assets/clips/042-952229914959567695.mp4",
+    "poster": "assets/posters-keyed/042-952229914959567695.webp",
+    "tags": [
+      "全部",
+      "凝视"
+    ],
+    "description": "一名穿红衣的光头男子看着镜头，拿起一片薯片放进嘴里，表情一直很平。",
+    "hasAudio": true,
+    "meanVolumeDb": -45.2,
+    "maxVolumeDb": -14.6,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "044",
+    "name": "活泼小猫",
+    "src": "assets/clips/044-945474515514966381.mp4",
+    "poster": "assets/posters-keyed/044-945474515514966381.webp",
+    "tags": [
+      "全部",
+      "开心",
+      "跳舞",
+      "嘚瑟"
+    ],
+    "description": "一只白橘小猫直立，双臂大幅挥舞，像在跳一段完整的舞。",
+    "hasAudio": true,
+    "meanVolumeDb": -24.8,
+    "maxVolumeDb": -8.3,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "045",
+    "name": "嘚瑟狗",
+    "src": "assets/clips/045-966374032559710072.mp4",
+    "poster": "assets/posters-keyed/045-966374032559710072.webp",
+    "tags": [
+      "全部",
+      "开心",
+      "跳舞",
+      "嘚瑟"
+    ],
+    "description": "一只穿粉色衣服的小狗用后腿站着，身体侧对镜头，头扭回来看。",
+    "hasAudio": true,
+    "meanVolumeDb": -9.6,
+    "maxVolumeDb": 0.0,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "046",
+    "name": "得意猫",
+    "src": "assets/clips/046-1087900853766737769.mp4",
+    "poster": "assets/posters-keyed/046-1087900853766737769.webp",
+    "tags": [
+      "全部",
+      "跳舞"
+    ],
+    "description": "一只白猫直立跳舞，中段双手抱头，结尾单脚站立，背景是浅绿幕。",
+    "hasAudio": true,
+    "meanVolumeDb": -17.0,
+    "maxVolumeDb": -1.0,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "048",
+    "name": "幸福萌宠",
+    "src": "assets/clips/048-1099230221554213687.mp4",
+    "poster": "assets/posters-keyed/048-1099230221554213687.webp",
+    "tags": [
+      "全部",
+      "开心"
+    ],
+    "description": "一只仓鼠或沙鼠张开手臂，露出门牙微笑，绿幕前几乎是固定笑容。",
+    "hasAudio": true,
+    "meanVolumeDb": -18.4,
+    "maxVolumeDb": -3.2,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "051",
+    "name": "得意猫",
+    "src": "assets/clips/051-925841635918352759.mp4",
+    "poster": "assets/posters-keyed/051-925841635918352759.webp",
+    "tags": [
+      "全部",
+      "说话"
+    ],
+    "description": "猫脸特写，嘴巴一张一合，眼神往上看，像在说话或 smug 地评论。",
+    "hasAudio": true,
+    "meanVolumeDb": -19.3,
+    "maxVolumeDb": -0.8,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "052",
+    "name": "认真卖萌小猫",
+    "src": "assets/clips/052-877005727502301771.mp4",
+    "poster": "assets/posters-keyed/052-877005727502301771.webp",
+    "tags": [
+      "全部",
+      "开心",
+      "跳舞"
+    ],
+    "description": "一只橘白小猫直立，双爪在胸前和两侧摆动，跳得很投入。",
+    "hasAudio": true,
+    "meanVolumeDb": -18.8,
+    "maxVolumeDb": -4.2,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "053",
+    "name": "冷静猫",
+    "src": "assets/clips/053-871446596633601337.mp4",
+    "poster": "assets/posters-keyed/053-871446596633601337.webp",
+    "tags": [
+      "全部"
+    ],
+    "description": "虎斑猫面部特写，目光从侧面慢慢转到镜头，表情平静。",
+    "hasAudio": true,
+    "meanVolumeDb": -37.9,
+    "maxVolumeDb": -19.3,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "054",
+    "name": "邪恶微笑狗",
+    "src": "assets/clips/054-1007328641674472009.mp4",
+    "poster": "assets/posters-keyed/054-1007328641674472009.webp",
+    "tags": [
+      "全部",
+      "无辜",
+      "邪恶",
+      "得逞"
+    ],
+    "description": "吉娃娃先板着脸，随后嘴角咧开，露出一排小牙。",
+    "hasAudio": true,
+    "meanVolumeDb": -14.9,
+    "maxVolumeDb": -0.8,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "055",
+    "name": "晕猫",
+    "src": "assets/clips/055-1115063189021225994.mp4",
+    "poster": "assets/posters-keyed/055-1115063189021225994.webp",
+    "tags": [
+      "全部",
+      "男友力",
+      "跳舞"
+    ],
+    "description": "一只白猫在绿幕中旋转、倾斜，身体被甩成不同角度。",
+    "hasAudio": true,
+    "meanVolumeDb": -8.7,
+    "maxVolumeDb": 0.0,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "058",
+    "name": "俏皮人物",
+    "src": "assets/clips/058-973833119472289123.mp4",
+    "poster": "assets/posters-keyed/058-973833119472289123.webp",
+    "tags": [
+      "全部",
+      "嫌弃"
+    ],
+    "description": "一名扎着两个小辫的男子对着镜头，中途举起手指点了一下。",
+    "hasAudio": true,
+    "meanVolumeDb": -35.2,
+    "maxVolumeDb": -21.9,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "059",
+    "name": "震惊人物",
+    "src": "assets/clips/059-1136384918504062307.mp4",
+    "poster": "assets/posters-keyed/059-1136384918504062307.webp",
+    "tags": [
+      "全部",
+      "震惊"
+    ],
+    "description": "一名戴耳机的人用手捂住嘴，眼睛睁大，黑白人物贴在绿幕上。",
+    "hasAudio": true,
+    "meanVolumeDb": -17.0,
+    "maxVolumeDb": -4.0,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "060",
+    "name": "温和人物",
+    "src": "assets/clips/060-957014989563729592.mp4",
+    "poster": "assets/posters-keyed/060-957014989563729592.webp",
+    "tags": [
+      "全部",
+      "说话"
+    ],
+    "description": "一名年长男子从张嘴说话变成微笑看着镜头。",
+    "hasAudio": true,
+    "meanVolumeDb": -31.7,
+    "maxVolumeDb": -0.5,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "062",
+    "name": "认真猫",
+    "src": "assets/clips/062-1073123417589365095.mp4",
+    "poster": "assets/posters-keyed/062-1073123417589365095.webp",
+    "tags": [
+      "全部"
+    ],
+    "description": "一只戴项圈的白猫坐在驾驶座，爪子放在方向盘上，左右看路。",
+    "hasAudio": true,
+    "meanVolumeDb": -15.5,
+    "maxVolumeDb": -5.6,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "063",
+    "name": "震惊猫",
+    "src": "assets/clips/063-1082904672916198366.mp4",
+    "poster": "assets/posters-keyed/063-1082904672916198366.webp",
+    "tags": [
+      "全部",
+      "震惊"
+    ],
+    "description": "虎斑猫坐着，前爪抱在一起，眼睛睁大，嘴巴微张。",
+    "hasAudio": true,
+    "meanVolumeDb": -32.6,
+    "maxVolumeDb": -15.5,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "064",
+    "name": "亲密小猫",
+    "src": "assets/clips/064-1014717359811078489.mp4",
+    "poster": "assets/posters-keyed/064-1014717359811078489.webp",
+    "tags": [
+      "全部",
+      "开心",
+      "跳舞"
+    ],
+    "description": "两只小猫先抱在一起，再分开站着挥爪，动作很小。",
+    "hasAudio": true,
+    "meanVolumeDb": -13.3,
+    "maxVolumeDb": 0.0,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "065",
+    "name": "惊恐猫",
+    "src": "assets/clips/065-972777588258786100.mp4",
+    "poster": "assets/posters-keyed/065-972777588258786100.webp",
+    "tags": [
+      "全部",
+      "震惊"
+    ],
+    "description": "灰白猫面部特写，眼睛瞪得很大，直视镜头。",
+    "hasAudio": true,
+    "meanVolumeDb": -15.2,
+    "maxVolumeDb": -2.9,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "067",
+    "name": "好奇猫",
+    "src": "assets/clips/067-925841635918393102.mp4",
+    "poster": "assets/posters-keyed/067-925841635918393102.webp",
+    "tags": [
+      "全部",
+      "震惊"
+    ],
+    "description": "一只猫从画面下方冒出来，抬头看向上方，眼神跟随着什么。",
+    "hasAudio": true,
+    "meanVolumeDb": -16.4,
+    "maxVolumeDb": -0.3,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "068",
+    "name": "无聊猫",
+    "src": "assets/clips/068-925841635918353202.mp4",
+    "poster": "assets/posters-keyed/068-925841635918353202.webp",
+    "tags": [
+      "全部"
+    ],
+    "description": "一只白棕猫趴着，眼睛半睁，几乎不动。",
+    "hasAudio": true,
+    "meanVolumeDb": -18.2,
+    "maxVolumeDb": -2.7,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "069",
+    "name": "亢奋狗",
+    "src": "assets/clips/069-1042653751221222009.mp4",
+    "poster": "assets/posters-keyed/069-1042653751221222009.webp",
+    "tags": [
+      "全部",
+      "开心"
+    ],
+    "description": "杰克罗素梗在绿幕前跳起又侧身落地，嘴巴大张。",
+    "hasAudio": true,
+    "meanVolumeDb": -22.2,
+    "maxVolumeDb": -1.1,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "073",
+    "name": "暴躁呲牙狗",
+    "src": "assets/clips/073-1108518895812229877.mp4",
+    "poster": "assets/posters-keyed/073-1108518895812229877.webp",
+    "tags": [
+      "全部",
+      "邪恶、生气、崩溃"
+    ],
+    "description": "吉娃娃先皱眉露齿，再把脸凑近，表情从暴躁变成勉强的笑。",
+    "hasAudio": true,
+    "meanVolumeDb": -18.2,
+    "maxVolumeDb": -0.6,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "074",
+    "name": "安静猫",
+    "src": "assets/clips/074-1084382416553936533.mp4",
+    "poster": "assets/posters-keyed/074-1084382416553936533.webp",
+    "tags": [
+      "全部"
+    ],
+    "description": "一只棕猫蜷成球，在带水印的绿幕上几乎不动，像在睡觉。",
+    "hasAudio": true,
+    "meanVolumeDb": -9.9,
+    "maxVolumeDb": -0.0,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "076",
+    "name": "慵懒猫",
+    "src": "assets/clips/076-925841635918353220.mp4",
+    "poster": "assets/posters-keyed/076-925841635918353220.webp",
+    "tags": [
+      "全部",
+      "思考人生"
+    ],
+    "description": "一只浅色猫侧躺，头枕在深色枕头上，绿幕前保持放松姿势。",
+    "hasAudio": true,
+    "meanVolumeDb": -12.6,
+    "maxVolumeDb": -2.2,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "077",
+    "name": "震惊猫",
+    "src": "assets/clips/077-925841635918353477.mp4",
+    "poster": "assets/posters-keyed/077-925841635918353477.webp",
+    "tags": [
+      "全部",
+      "震惊"
+    ],
+    "description": "橘猫面部特写，嘴巴张成 O 形，眼睛圆睁。",
+    "hasAudio": true,
+    "meanVolumeDb": -16.2,
+    "maxVolumeDb": -0.6,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "078",
+    "name": "从正经变成猫",
+    "src": "assets/clips/078-1136384918504062211.mp4",
+    "poster": "assets/posters-keyed/078-1136384918504062211.webp",
+    "tags": [
+      "全部"
+    ],
+    "description": "橘白猫先坐直，随后眯眼咧嘴，像在坏笑。",
+    "hasAudio": true,
+    "meanVolumeDb": -18.9,
+    "maxVolumeDb": -1.5,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "079",
+    "name": "好奇猫",
+    "src": "assets/clips/079-1020628334292771329.mp4",
+    "poster": "assets/posters-keyed/079-1020628334292771329.webp",
+    "tags": [
+      "全部"
+    ],
+    "description": "两只猫的脸并排出现，一只看向另一只，像在对视交流。",
+    "hasAudio": true,
+    "meanVolumeDb": -33.9,
+    "maxVolumeDb": -18.0,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "080",
+    "name": "团结小猫",
+    "src": "assets/clips/080-1136525656056571357.mp4",
+    "poster": "assets/posters-keyed/080-1136525656056571357.webp",
+    "tags": [
+      "全部",
+      "开心",
+      "跳舞"
+    ],
+    "description": "三只白色小猫手拉手跳舞，队形从三个变成两个再靠拢。",
+    "hasAudio": true,
+    "meanVolumeDb": -16.0,
+    "maxVolumeDb": -6.9,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "082",
+    "name": "站着睡觉猫",
+    "src": "assets/clips/082-1048423988248849517.mp4",
+    "poster": "assets/posters-keyed/082-1048423988248849517.webp",
+    "tags": [
+      "全部",
+      "打呼噜、被迫营业"
+    ],
+    "description": "一只胖橘猫坐直，头仰起来看向上方，背景是渐变绿。",
+    "hasAudio": true,
+    "meanVolumeDb": -25.1,
+    "maxVolumeDb": -8.9,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "083",
+    "name": "晕眩猫",
+    "src": "assets/clips/083-1036109458006173425.mp4",
+    "poster": "assets/posters-keyed/083-1036109458006173425.webp",
+    "tags": [
+      "全部",
+      "崩溃"
+    ],
+    "description": "一只灰猫快速旋转，身体被运动模糊拉长，最后缩成一团。",
+    "hasAudio": true,
+    "meanVolumeDb": -15.8,
+    "maxVolumeDb": -2.9,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "085",
+    "name": "自信猫",
+    "src": "assets/clips/085-903534743981759307.mp4",
+    "poster": "assets/posters-keyed/085-903534743981759307.webp",
+    "tags": [
+      "全部",
+      "跳舞",
+      "说话"
+    ],
+    "description": "灰猫直立摆动手臂和 hips，跳得比较完整。",
+    "hasAudio": true,
+    "meanVolumeDb": -15.5,
+    "maxVolumeDb": -5.7,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "086",
+    "name": "从容人物",
+    "src": "assets/clips/086-791859547027465858.mp4",
+    "poster": "assets/posters-keyed/086-791859547027465858.webp",
+    "tags": [
+      "全部"
+    ],
+    "description": "一名戴头巾和墨镜的人端着茶杯，先举杯再把杯子放到一侧，姿态很稳。",
+    "hasAudio": true,
+    "meanVolumeDb": -15.4,
+    "maxVolumeDb": -3.9,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "087",
+    "name": "炫耀猫",
+    "src": "assets/clips/087-823173638185084900.mp4",
+    "poster": "assets/posters-keyed/087-823173638185084900.webp",
+    "tags": [
+      "全部"
+    ],
+    "description": "一只猫用黄色手套指着一顶黑色学士帽，表情得意。画面有法语字幕痕迹。",
+    "hasAudio": true,
+    "meanVolumeDb": -18.5,
+    "maxVolumeDb": -5.5,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "091",
+    "name": "爆笑猫",
+    "src": "assets/clips/091-1042513013737377594.mp4",
+    "poster": "assets/posters-keyed/091-1042513013737377594.webp",
+    "tags": [
+      "全部"
+    ],
+    "description": "猫的嘴部特写从闭眼变成张大嘴，像在狂笑。",
+    "hasAudio": true,
+    "meanVolumeDb": -21.8,
+    "maxVolumeDb": -11.5,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "092",
+    "name": "臭美猫",
+    "src": "assets/clips/092-889460995184250415.mp4",
+    "poster": "assets/posters-keyed/092-889460995184250415.webp",
+    "tags": [
+      "全部",
+      "跳舞"
+    ],
+    "description": "一只白猫直立，双手抱胸又松开，身体左右扭，表情很得意。",
+    "hasAudio": true,
+    "meanVolumeDb": -13.5,
+    "maxVolumeDb": -1.1,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "094",
+    "name": "可爱萌宠",
+    "src": "assets/clips/094-1143562530396435412.mp4",
+    "poster": "assets/posters-keyed/094-1143562530396435412.webp",
+    "tags": [
+      "全部",
+      "开心",
+      "跳舞"
+    ],
+    "description": "一只穿绿色毛衣的花栗鼠转圈跳舞，大尾巴甩来甩去。",
+    "hasAudio": true,
+    "meanVolumeDb": -27.3,
+    "maxVolumeDb": -9.9,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "095",
+    "name": "得意狗",
+    "src": "assets/clips/095-925841635918890822.mp4",
+    "poster": "assets/posters-keyed/095-925841635918890822.webp",
+    "tags": [
+      "全部"
+    ],
+    "description": "吉娃娃特写，从平静看着镜头变成歪头坏笑。",
+    "hasAudio": true,
+    "meanVolumeDb": -13.5,
+    "maxVolumeDb": 0.0,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "096",
+    "name": "对峙猫咪",
+    "src": "assets/clips/096-925841635918424833.mp4",
+    "poster": "assets/posters-keyed/096-925841635918424833.webp",
+    "tags": [
+      "全部",
+      "生气、打架、对峙"
+    ],
+    "description": "蓝猫和银渐层在互相吼叫对峙",
+    "hasAudio": true,
+    "meanVolumeDb": -23.9,
+    "maxVolumeDb": -6.9,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "097",
+    "name": "极度兴奋狗",
+    "src": "assets/clips/097-1037235357921413072.mp4",
+    "poster": "assets/posters-keyed/097-1037235357921413072.webp",
+    "tags": [
+      "全部"
+    ],
+    "description": "杰克罗素梗在绿幕前大跳，舌头甩出，和 036、069 是同一类兴奋狗。",
+    "hasAudio": true,
+    "meanVolumeDb": -22.0,
+    "maxVolumeDb": -1.2,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "098",
+    "name": "警觉狗",
+    "src": "assets/clips/098-1026187465098921825.mp4",
+    "poster": "assets/posters-keyed/098-1026187465098921825.webp",
+    "tags": [
+      "全部",
+      "震惊"
+    ],
+    "description": "一只棕狗先正面看镜头，再把头转向侧面，耳朵竖着。",
+    "hasAudio": true,
+    "meanVolumeDb": -21.1,
+    "maxVolumeDb": -2.8,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "099",
+    "name": "崩溃猫",
+    "src": "assets/clips/099-823173638178503941.mp4",
+    "poster": "assets/posters-keyed/099-823173638178503941.webp",
+    "tags": [
+      "全部",
+      "震惊",
+      "崩溃"
+    ],
+    "description": "一只暹罗猫直立抱着手机，嘴巴大张，像在对着屏幕尖叫。",
+    "hasAudio": true,
+    "meanVolumeDb": -23.9,
+    "maxVolumeDb": -8.0,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "100",
+    "name": "可爱小猫",
+    "src": "assets/clips/100-1105070827346341012.mp4",
+    "poster": "assets/posters-keyed/100-1105070827346341012.webp",
+    "tags": [
+      "全部",
+      "开心",
+      "跳舞"
+    ],
+    "description": "两只小猫在浅绿幕前跳舞，一只挥爪，另一只跟上。",
+    "hasAudio": true,
+    "meanVolumeDb": -9.2,
+    "maxVolumeDb": 0.0,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "103",
+    "name": "话痨猫",
+    "src": "assets/clips/103-1125688869380805138.mp4",
+    "poster": "assets/posters-keyed/103-1125688869380805138.webp",
+    "tags": [
+      "全部",
+      "说话"
+    ],
+    "description": "猫脸特写，嘴巴开合，像在说话，和 051 很像。",
+    "hasAudio": true,
+    "meanVolumeDb": -25.4,
+    "maxVolumeDb": -7.0,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "105",
+    "name": "幸福快乐猫",
+    "src": "assets/clips/105-1098808009522230694.mp4",
+    "poster": "assets/posters-keyed/105-1098808009522230694.webp",
+    "tags": [
+      "全部",
+      "开心",
+      "跳舞"
+    ],
+    "description": "一只圆脸猫只有头部在绿幕中央，表情温和，动作很少。",
+    "hasAudio": true,
+    "meanVolumeDb": -24.4,
+    "maxVolumeDb": -12.8,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "106",
+    "name": "酷猫",
+    "src": "assets/clips/106-1017954322015248954.mp4",
+    "poster": "assets/posters-keyed/106-1017954322015248954.webp",
+    "tags": [
+      "全部",
+      "跳舞"
+    ],
+    "description": "一只深色猫的剪影直立跳舞，手臂大幅度甩动。",
+    "hasAudio": true,
+    "meanVolumeDb": -24.6,
+    "maxVolumeDb": -7.9,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "110",
+    "name": "软萌猫",
+    "src": "assets/clips/110-737394139032442734.mp4",
+    "poster": "assets/posters-keyed/110-737394139032442734.webp",
+    "tags": [
+      "全部",
+      "开心",
+      "跳舞"
+    ],
+    "description": "一只小奶猫抬起前爪在绿幕前摇摆，卖萌跳舞。",
+    "hasAudio": true,
+    "meanVolumeDb": -22.9,
+    "maxVolumeDb": -8.2,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "117",
+    "name": "从孤单到成猫",
+    "src": "assets/clips/117-1099441327848567301.mp4",
+    "poster": "assets/posters-keyed/117-1099441327848567301.webp",
+    "tags": [
+      "全部",
+      "开心"
+    ],
+    "description": "一只白猫先单独站着，随后变成三只并排的小白猫。",
+    "hasAudio": true,
+    "meanVolumeDb": -20.3,
+    "maxVolumeDb": -7.9,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "119",
+    "name": "荒诞角色",
+    "src": "assets/clips/119-899242250608467884.mp4",
+    "poster": "assets/posters-keyed/119-899242250608467884.webp",
+    "tags": [
+      "全部",
+      "开心",
+      "跳舞"
+    ],
+    "description": "一条卡通双髻鲨或锤头鲨在绿幕上扭动身体，像在跳舞。",
+    "hasAudio": true,
+    "meanVolumeDb": -16.0,
+    "maxVolumeDb": -4.6,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "120",
+    "name": "派对小猫",
+    "src": "assets/clips/120-1101130177702615951.mp4",
+    "poster": "assets/posters-keyed/120-1101130177702615951.webp",
+    "tags": [
+      "全部",
+      "开心",
+      "跳舞"
+    ],
+    "description": "三只小猫戴着黑帽和眼镜，并排蹦跳，像一个小乐队。",
+    "hasAudio": true,
+    "meanVolumeDb": -8.2,
+    "maxVolumeDb": 0.0,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "122",
+    "name": "俏皮猫",
+    "src": "assets/clips/122-1087267535071345350.mp4",
+    "poster": "assets/posters-keyed/122-1087267535071345350.webp",
+    "tags": [
+      "全部"
+    ],
+    "description": "圆脸猫先闭一只眼，再睁开眼睛看着镜头。",
+    "hasAudio": true,
+    "meanVolumeDb": -22.7,
+    "maxVolumeDb": -12.4,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "130",
+    "name": "团结小猫",
+    "src": "assets/clips/130-1147503180088650114.mp4",
+    "poster": "assets/posters-keyed/130-1147503180088650114.webp",
+    "tags": [
+      "全部",
+      "开心"
+    ],
+    "description": "一群小猫先排成一排挥手，再互相拥抱，最后三只靠在一起。",
+    "hasAudio": true,
+    "meanVolumeDb": -19.1,
+    "maxVolumeDb": -10.3,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "136",
+    "name": "软猫",
+    "src": "assets/clips/136-1132796112540807977.mp4",
+    "poster": "assets/posters-keyed/136-1132796112540807977.webp",
+    "tags": [
+      "全部",
+      "开心",
+      "跳舞"
+    ],
+    "description": "一只方块身体的卡通猫左右扭动，抬起小手。",
+    "hasAudio": true,
+    "meanVolumeDb": -21.4,
+    "maxVolumeDb": -6.9,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "137",
+    "name": "晕猫",
+    "src": "assets/clips/137-942589396997524295.mp4",
+    "poster": "assets/posters-keyed/137-942589396997524295.webp",
+    "tags": [
+      "全部",
+      "崩溃"
+    ],
+    "description": "灰猫高速旋转并模糊，和 083 是同一类转晕猫。",
+    "hasAudio": true,
+    "meanVolumeDb": -21.7,
+    "maxVolumeDb": -8.6,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "142",
+    "name": "怪诞角色",
+    "src": "assets/clips/142-1079456604485752266.mp4",
+    "poster": "assets/posters-keyed/142-1079456604485752266.webp",
+    "tags": [
+      "全部",
+      "开心",
+      "说话"
+    ],
+    "description": "一只灰色长条生物张开细手臂和触角，嘴巴一张一合，像在唱歌。",
+    "hasAudio": true,
+    "meanVolumeDb": -23.9,
+    "maxVolumeDb": -10.5,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "143",
+    "name": "暴力喜剧猫",
+    "src": "assets/clips/143-1081145454298272699.mp4",
+    "poster": "assets/posters-keyed/143-1081145454298272699.webp",
+    "tags": [
+      "全部"
+    ],
+    "description": "一只站着的猫突然裂成几块肉块飞开，画面上有英文 Fun world。",
+    "hasAudio": true,
+    "meanVolumeDb": -17.7,
+    "maxVolumeDb": -0.1,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "159",
+    "name": "欢乐小猫",
+    "src": "assets/clips/159-1084593522788895884.mp4",
+    "poster": "assets/posters-keyed/159-1084593522788895884.webp",
+    "tags": [
+      "全部",
+      "开心",
+      "跳舞"
+    ],
+    "description": "三只小猫手拉手跳舞，队形变化，和 080 类似但角度不同。",
+    "hasAudio": true,
+    "meanVolumeDb": -11.6,
+    "maxVolumeDb": -0.0,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "163",
+    "name": "激昂猫",
+    "src": "assets/clips/163-1116189088929691264.mp4",
+    "poster": "assets/posters-keyed/163-1116189088929691264.webp",
+    "tags": [
+      "全部",
+      "说话"
+    ],
+    "description": "灰猫直立张嘴，双臂打开又收回，跳得比较用力。",
+    "hasAudio": true,
+    "meanVolumeDb": -18.8,
+    "maxVolumeDb": -8.9,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "164",
+    "name": "专注猫",
+    "src": "assets/clips/164-925841635918391580.mp4",
+    "poster": "assets/posters-keyed/164-925841635918391580.webp",
+    "tags": [
+      "全部",
+      "开心"
+    ],
+    "description": "橘猫坐直盯着镜头，耳朵竖起，表情认真。",
+    "hasAudio": true,
+    "meanVolumeDb": -17.6,
+    "maxVolumeDb": -4.4,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "167",
+    "name": "友情小猫",
+    "src": "assets/clips/167-1030761433490283799.mp4",
+    "poster": "assets/posters-keyed/167-1030761433490283799.webp",
+    "tags": [
+      "全部",
+      "开心"
+    ],
+    "description": "三只小猫从并排站立变成拥抱，再变成两只举手。",
+    "hasAudio": true,
+    "meanVolumeDb": -31.8,
+    "maxVolumeDb": -24.0,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "189",
+    "name": "狂笑猫",
+    "src": "assets/clips/189-1036742776712929676.mp4",
+    "poster": "assets/posters-keyed/189-1036742776712929676.webp",
+    "tags": [
+      "全部"
+    ],
+    "description": "猫嘴特写从闭眼到张大大笑，和 091 是同一类爆笑脸。",
+    "hasAudio": true,
+    "meanVolumeDb": -19.6,
+    "maxVolumeDb": -9.0,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "195",
+    "name": "平静角色",
+    "src": "assets/clips/195-892909063604868507.mp4",
+    "poster": "assets/posters-keyed/195-892909063604868507.webp",
+    "tags": [
+      "全部",
+      "静音音轨"
+    ],
+    "description": "一只简单线条的白色卡通鸭在绿幕上走路，几乎没有表情变化。",
+    "hasAudio": true,
+    "meanVolumeDb": -90.3,
+    "maxVolumeDb": -84.3,
+    "hasAudibleAudio": false
+  },
+  {
+    "id": "200",
+    "name": "投入猫",
+    "src": "assets/clips/200-1085367578968026905.mp4",
+    "poster": "assets/posters-keyed/200-1085367578968026905.webp",
+    "tags": [
+      "全部",
+      "说话"
+    ],
+    "description": "一只橘猫戴着白帽，一手拿麦克风，一手抱着粉色球，张嘴唱歌。",
+    "hasAudio": true,
+    "meanVolumeDb": -18.9,
+    "maxVolumeDb": -8.9,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "201",
+    "name": "站立摇摆猫",
+    "src": "assets/clips/201-455567318574638711.mp4",
+    "poster": "assets/posters-keyed/201-455567318574638711.webp",
+    "tags": [
+      "全部",
+      "猫",
+      "跳舞",
+      "摇摆",
+      "开心",
+      "打招呼"
+    ],
+    "description": "一只灰猫用后腿站立，在绿幕前抬起两只前爪并左右摇摆，动作像轻松跳舞或主动打招呼。",
+    "hasAudio": true,
+    "meanVolumeDb": -23.3,
+    "maxVolumeDb": -9.3,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "202",
+    "name": "大声喵叫白猫",
+    "src": "assets/clips/202-671388256984672220.mp4",
+    "poster": "assets/posters-keyed/202-671388256984672220.webp",
+    "tags": [
+      "全部",
+      "猫",
+      "说话",
+      "喵叫",
+      "激动",
+      "抱怨"
+    ],
+    "description": "一只白猫正面对镜头，头部左右转动并持续张嘴喵叫，表情从认真逐渐变得激动。",
+    "hasAudio": true,
+    "meanVolumeDb": -43.9,
+    "maxVolumeDb": -12.5,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "205",
+    "name": "三只跳舞狐獴",
+    "src": "assets/clips/205-515380751131807151.mp4",
+    "poster": "assets/posters-keyed/205-515380751131807151.webp",
+    "tags": [
+      "全部",
+      "动物",
+      "群体",
+      "跳舞",
+      "庆祝",
+      "热闹"
+    ],
+    "description": "三只小狐獴并排站在绿幕前，轮流挥动手臂、扭动身体，像一支同步表演的小队。",
+    "hasAudio": true,
+    "meanVolumeDb": -9.5,
+    "maxVolumeDb": -0.3,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "206",
+    "name": "仰头大笑男子",
+    "src": "assets/clips/206-825566175475572173.mp4",
+    "poster": "assets/posters-keyed/206-825566175475572173.webp",
+    "tags": [
+      "全部",
+      "人物",
+      "大笑",
+      "得意",
+      "开心",
+      "反应"
+    ],
+    "description": "一名穿条纹衬衫的男子先仰头大笑，随后低头露出满足笑容，适合嘲笑、得意或听到好消息后的反应。",
+    "hasAudio": true,
+    "meanVolumeDb": -16.6,
+    "maxVolumeDb": -6.1,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "207",
+    "name": "贴脸尖叫猫",
+    "src": "assets/clips/207-796644621630518020.mp4",
+    "poster": "assets/posters-keyed/207-796644621630518020.webp",
+    "tags": [
+      "全部",
+      "猫",
+      "尖叫",
+      "震惊",
+      "崩溃",
+      "贴脸"
+    ],
+    "description": "猫脸超近距离贴近镜头，突然张大嘴巴叫喊，画面晃动且冲击感强，适合崩溃或被吓到。",
+    "hasAudio": true,
+    "meanVolumeDb": -16.0,
+    "maxVolumeDb": -5.1,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "209",
+    "name": "悬浮发呆猫头",
+    "src": "assets/clips/209-1033365077019771258.mp4",
+    "poster": "assets/posters-keyed/209-1033365077019771258.webp",
+    "tags": [
+      "全部",
+      "猫",
+      "发呆",
+      "无语",
+      "平静",
+      "静止"
+    ],
+    "description": "一只灰白猫的头部悬浮在绿幕中央，几乎不动地直视镜头，适合发呆、无语或等待回应。",
+    "hasAudio": true,
+    "meanVolumeDb": -16.7,
+    "maxVolumeDb": -5.9,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "210",
+    "name": "挥手企鹅玩偶",
+    "src": "assets/clips/210-1146447648884100661.mp4",
+    "poster": "assets/posters-keyed/210-1146447648884100661.webp",
+    "tags": [
+      "全部",
+      "动物",
+      "企鹅",
+      "挥手",
+      "滑稽",
+      "欢迎"
+    ],
+    "description": "一个画面略模糊的企鹅玩偶在绿幕前抬起两侧翅膀反复挥动，动作滑稽而热情。",
+    "hasAudio": true,
+    "meanVolumeDb": -18.3,
+    "maxVolumeDb": -1.0,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "211",
+    "name": "香蕉装哭泣猫",
+    "src": "assets/clips/211-921900986252534954.mp4",
+    "poster": "assets/posters-keyed/211-921900986252534954.webp",
+    "tags": [
+      "全部",
+      "猫",
+      "哭泣",
+      "委屈",
+      "香蕉装",
+      "滑稽"
+    ],
+    "description": "一只穿香蕉造型服装的小猫站着摇晃，脸旁带有夸张的蓝色泪流效果，适合委屈或搞笑哭泣。",
+    "hasAudio": true,
+    "meanVolumeDb": -21.7,
+    "maxVolumeDb": -7.0,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "212",
+    "name": "抱玉米小猫",
+    "src": "assets/clips/212-1001910248366333421.mp4",
+    "poster": "assets/posters-keyed/212-1001910248366333421.webp",
+    "tags": [
+      "全部",
+      "猫",
+      "食物",
+      "玉米",
+      "护食",
+      "可爱"
+    ],
+    "description": "一只橘白小猫直立抱着一根玉米，左右转头并调整手中的玉米，像护食或展示食物。",
+    "hasAudio": true,
+    "meanVolumeDb": -25.3,
+    "maxVolumeDb": -7.7,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "214",
+    "name": "邪恶跳舞人物",
+    "src": "assets/clips/214-959618633096658233.mp4",
+    "poster": "assets/posters-keyed/214-959618633096658233.webp",
+    "tags": [
+      "全部",
+      "跳舞"
+    ],
+    "description": "面无表情、四肢不协调的男人在跳舞",
+    "hasAudio": true,
+    "meanVolumeDb": -13.9,
+    "maxVolumeDb": -2.0,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "215",
+    "name": "埋头吃东西白猫",
+    "src": "assets/clips/215-1138214505830078679.mp4",
+    "poster": "assets/posters-keyed/215-1138214505830078679.webp",
+    "tags": [
+      "全部",
+      "猫",
+      "吃东西",
+      "低头",
+      "日常",
+      "专注"
+    ],
+    "description": "一只白猫从平静看向镜头变为低头把红蓝包装的食物送到嘴边，动作像突然开始认真吃东西。",
+    "hasAudio": true,
+    "meanVolumeDb": -17.9,
+    "maxVolumeDb": 0.0,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "216",
+    "name": "大肚子跳舞阿三",
+    "src": "assets/clips/216-996632592518802818.mp4",
+    "poster": "assets/posters-keyed/216-996632592518802818.webp",
+    "tags": [
+      "全部",
+      "开心",
+      "庆祝"
+    ],
+    "description": "大肚子跳舞阿三",
+    "hasAudio": true,
+    "meanVolumeDb": -14.8,
+    "maxVolumeDb": 0.0,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "217",
+    "name": "突然大叫白猫",
+    "src": "assets/clips/217-1071434567604565214.mp4",
+    "poster": "assets/posters-keyed/217-1071434567604565214.webp",
+    "tags": [
+      "全部",
+      "猫",
+      "尖叫",
+      "情绪爆发",
+      "震惊",
+      "说话"
+    ],
+    "description": "一只白猫先抬头安静观察，随后嘴巴夸张放大并张嘴大叫，适合突然尖叫、抗议或情绪爆发。",
+    "hasAudio": true,
+    "meanVolumeDb": -26.0,
+    "maxVolumeDb": -3.7,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "219",
+    "name": "委屈小猫",
+    "src": "assets/clips/219-705798572878652346.mp4",
+    "poster": "assets/posters-keyed/219-705798572878652346.webp",
+    "tags": [
+      "全部",
+      "委屈",
+      "可怜"
+    ],
+    "description": "在解释的委屈猫",
+    "hasAudio": true,
+    "meanVolumeDb": -31.8,
+    "maxVolumeDb": -13.7,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "220",
+    "name": "站立回头虎斑猫",
+    "src": "assets/clips/220-823173638185084849.mp4",
+    "poster": "assets/posters-keyed/220-823173638185084849.webp",
+    "tags": [
+      "全部",
+      "猫",
+      "回头",
+      "站立",
+      "严肃",
+      "警觉"
+    ],
+    "description": "一只虎斑猫用后腿站立，从侧身抬爪逐渐转向正面，神情严肃，像听见有人叫自己后回头。",
+    "hasAudio": true,
+    "meanVolumeDb": -19.2,
+    "maxVolumeDb": -3.8,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "221",
+    "name": "冲刺离场男子",
+    "src": "assets/clips/221-1101763496400022991.mp4",
+    "poster": "assets/posters-keyed/221-1101763496400022991.webp",
+    "tags": [
+      "全部",
+      "人物",
+      "奔跑",
+      "逃跑",
+      "离场",
+      "紧张"
+    ],
+    "description": "一名男子在绿幕前快速摆臂冲刺，身体从近处移动到远处并离开画面，适合逃跑、赶时间或突然退场。",
+    "hasAudio": true,
+    "meanVolumeDb": -15.1,
+    "maxVolumeDb": 0.0,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "223",
+    "name": "低头自闭灰猫",
+    "src": "assets/clips/223-902127369112245825.mp4",
+    "poster": "assets/posters-keyed/223-902127369112245825.webp",
+    "tags": [
+      "全部",
+      "猫",
+      "低头",
+      "难过",
+      "害羞",
+      "自闭"
+    ],
+    "description": "一只灰猫低着头缩起身体，期间稍微转身又继续垂头，像害羞、难过或不愿面对现实。",
+    "hasAudio": true,
+    "meanVolumeDb": -27.7,
+    "maxVolumeDb": -14.8,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "224",
+    "name": "瞪眼惊讶虎斑猫",
+    "src": "assets/clips/224-934356253930197107.mp4",
+    "poster": "assets/posters-keyed/224-934356253930197107.webp",
+    "tags": [
+      "全部",
+      "猫",
+      "瞪眼",
+      "惊讶",
+      "紧张",
+      "观察"
+    ],
+    "description": "一只被托起的虎斑猫睁大眼睛、微张嘴巴并左右观察，表情紧张又惊讶。",
+    "hasAudio": true,
+    "meanVolumeDb": -17.6,
+    "maxVolumeDb": -6.8,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "225",
+    "name": "漫画冲击线转场",
+    "src": "assets/clips/225-832673418607180902.mp4",
+    "poster": "assets/posters-keyed/225-832673418607180902.webp",
+    "tags": [
+      "全部",
+      "特效",
+      "速度线",
+      "转场",
+      "强调",
+      "漫画",
+      "静音音轨"
+    ],
+    "description": "绿色画面四周出现向中心汇聚的白色漫画速度线，中间完全留空，适合强调登场、震惊或戏剧转场。",
+    "hasAudio": true,
+    "meanVolumeDb": -90.3,
+    "maxVolumeDb": -90.3,
+    "hasAudibleAudio": false
+  },
+  {
+    "id": "226",
+    "name": "仰望黑猫头",
+    "src": "assets/clips/226-1075304848519878133.mp4",
+    "poster": "assets/posters-keyed/226-1075304848519878133.webp",
+    "tags": [
+      "全部",
+      "猫",
+      "仰望",
+      "期待",
+      "观察",
+      "平静"
+    ],
+    "description": "一只黑猫的头部位于绿幕中央，持续抬头望向斜上方，神情专注，适合期待或观察高处。",
+    "hasAudio": true,
+    "meanVolumeDb": -12.7,
+    "maxVolumeDb": -0.0,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "227",
+    "name": "戴帽海獭跳舞",
+    "src": "assets/clips/227-771030398736345556.mp4",
+    "poster": "assets/posters-keyed/227-771030398736345556.webp",
+    "tags": [
+      "全部",
+      "动物",
+      "海獭",
+      "跳舞",
+      "挥手",
+      "开心"
+    ],
+    "description": "一只戴蓝色帽子的海獭直立挥动双臂，身体左右摇摆，动作像兴奋跳舞或热情欢呼。",
+    "hasAudio": true,
+    "meanVolumeDb": -20.9,
+    "maxVolumeDb": -7.1,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "229",
+    "name": "委屈落泪巴哥",
+    "src": "assets/clips/229-1063131055776716025.mp4",
+    "poster": "assets/posters-keyed/229-1063131055776716025.webp",
+    "tags": [
+      "全部",
+      "狗",
+      "委屈",
+      "哭泣",
+      "难过",
+      "反应"
+    ],
+    "description": "一只巴哥犬的身体被做成夸张卡通轮廓，眼睛含泪、表情持续委屈，适合被责备或伤心反应。",
+    "hasAudio": true,
+    "meanVolumeDb": -18.9,
+    "maxVolumeDb": -6.5,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "230",
+    "name": "粉色卡通猫摇摆",
+    "src": "assets/clips/230-771311873723772856.mp4",
+    "poster": "assets/posters-keyed/230-771311873723772856.webp",
+    "tags": [
+      "全部",
+      "卡通猫",
+      "跳舞",
+      "摇摆",
+      "可爱",
+      "开心"
+    ],
+    "description": "一只粉白色扁平卡通猫在绿幕前左右扭动并挥爪，动作轻快，适合卖萌、庆祝或搞怪跳舞。",
+    "hasAudio": true,
+    "meanVolumeDb": -10.1,
+    "maxVolumeDb": 0.0,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "232",
+    "name": "走动变猫饼灰猫",
+    "src": "assets/clips/232-1094022934476382507.mp4",
+    "poster": "assets/posters-keyed/232-1094022934476382507.webp",
+    "tags": [
+      "全部",
+      "猫",
+      "走路",
+      "趴下",
+      "躺平",
+      "反差"
+    ],
+    "description": "一只灰猫先四脚站立向前走动，随后突然趴下缩成一团猫饼，适合从积极变成躺平。",
+    "hasAudio": true,
+    "meanVolumeDb": -15.8,
+    "maxVolumeDb": -2.7,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "233",
+    "name": "蹦跳小奶猫",
+    "src": "assets/clips/233-1087619378805075361.mp4",
+    "poster": "assets/posters-keyed/233-1087619378805075361.webp",
+    "tags": [
+      "全部",
+      "猫",
+      "蹦跳",
+      "挥爪",
+      "跳舞",
+      "可爱"
+    ],
+    "description": "一只小奶猫用后腿站立，双爪上下挥动并左右蹦跳，动作活泼而可爱。",
+    "hasAudio": true,
+    "meanVolumeDb": -19.5,
+    "maxVolumeDb": -4.9,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "236",
+    "name": "持剑战斗黑猫",
+    "src": "assets/clips/236-1028720739878379354.mp4",
+    "poster": "assets/posters-keyed/236-1028720739878379354.webp",
+    "tags": [
+      "全部",
+      "猫",
+      "战斗",
+      "挥剑",
+      "出招",
+      "热血"
+    ],
+    "description": "一只直立黑猫挥舞长剑做出攻击动作，随后抬手接近橙色小球，像战斗施法或英雄出招。",
+    "hasAudio": true,
+    "meanVolumeDb": -24.8,
+    "maxVolumeDb": -7.6,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "237",
+    "name": "橘猫贴脸观察",
+    "src": "assets/clips/237-925841635918353395.mp4",
+    "poster": "assets/posters-keyed/237-925841635918353395.webp",
+    "tags": [
+      "全部",
+      "猫",
+      "贴脸",
+      "观察",
+      "好奇",
+      "嗅闻"
+    ],
+    "description": "一只橘猫从半身镜头逐渐把脸靠近镜头，低头嗅闻或舔舐，适合好奇检查、发现东西或贴脸观察。",
+    "hasAudio": true,
+    "meanVolumeDb": -6.8,
+    "maxVolumeDb": 0.0,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "239",
+    "name": "小橘猫转身",
+    "src": "assets/clips/239-382454193381955909.mp4",
+    "poster": "assets/posters-keyed/239-382454193381955909.webp",
+    "tags": [
+      "全部",
+      "猫",
+      "转身",
+      "观察",
+      "平静",
+      "警觉"
+    ],
+    "description": "一只体型很小的橘猫站在绿幕中央，从正面缓慢转向侧面，动作克制，适合注意到旁边动静。",
+    "hasAudio": true,
+    "meanVolumeDb": -14.9,
+    "maxVolumeDb": -3.6,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "240",
+    "name": "跑近又离开男子",
+    "src": "assets/clips/240-752030837787423695.mp4",
+    "poster": "assets/posters-keyed/240-752030837787423695.webp",
+    "tags": [
+      "全部",
+      "人物",
+      "奔跑",
+      "靠近",
+      "离开",
+      "忙碌"
+    ],
+    "description": "一名男子从远处快速跑向镜头，短暂停留后又转身跑远，适合赶来查看、突然撤退或来回奔波。",
+    "hasAudio": true,
+    "meanVolumeDb": -19.2,
+    "maxVolumeDb": -4.2,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "242",
+    "name": "贴脸说话花猫",
+    "src": "assets/clips/242-988258711992963107.mp4",
+    "poster": "assets/posters-keyed/242-988258711992963107.webp",
+    "tags": [
+      "全部",
+      "猫",
+      "说话",
+      "贴脸",
+      "激动",
+      "质问"
+    ],
+    "description": "一只花猫以超近景面对镜头，反复张嘴并瞪大眼睛，像激动说话、质问或突然发表意见。",
+    "hasAudio": true,
+    "meanVolumeDb": -17.5,
+    "maxVolumeDb": -1.3,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "243",
+    "name": "海绵宝宝跳舞",
+    "src": "assets/clips/243-982418106281196967.mp4",
+    "poster": "assets/posters-keyed/243-982418106281196967.webp",
+    "tags": [
+      "全部",
+      "卡通角色",
+      "跳舞",
+      "庆祝",
+      "搞怪",
+      "开心"
+    ],
+    "description": "海绵宝宝角色在绿幕前快速摆动四肢并旋转跳舞，动作夸张欢快，适合庆祝和搞怪。",
+    "hasAudio": true,
+    "meanVolumeDb": -23.2,
+    "maxVolumeDb": -9.5,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "245",
+    "name": "警觉回头灰白猫",
+    "src": "assets/clips/245-949485533937348324.mp4",
+    "poster": "assets/posters-keyed/245-949485533937348324.webp",
+    "tags": [
+      "全部",
+      "猫",
+      "回头",
+      "警觉",
+      "观察",
+      "惊讶"
+    ],
+    "description": "一只灰白猫从侧面慢慢把头转向前方，眼睛睁大并保持警觉，适合听到异常或发现新情况。",
+    "hasAudio": true,
+    "meanVolumeDb": -22.4,
+    "maxVolumeDb": -6.2,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "246",
+    "name": "抬爪指路小猫",
+    "src": "assets/clips/246-1040753795129749980.mp4",
+    "poster": "assets/posters-keyed/246-1040753795129749980.webp",
+    "tags": [
+      "全部",
+      "猫",
+      "指向",
+      "介绍",
+      "挥爪",
+      "站立",
+      "静音音轨"
+    ],
+    "description": "一只灰白小猫直立，反复把一只前爪伸向侧上方，另一只爪放在胸前，像指方向或介绍东西。",
+    "hasAudio": true,
+    "meanVolumeDb": -90.3,
+    "maxVolumeDb": -90.3,
+    "hasAudibleAudio": false
+  },
+  {
+    "id": "247",
+    "name": "仰头尖叫白猫",
+    "src": "assets/clips/247-1024991196445236473.mp4",
+    "poster": "assets/posters-keyed/247-1024991196445236473.webp",
+    "tags": [
+      "全部",
+      "猫",
+      "尖叫",
+      "崩溃",
+      "抗议",
+      "说话"
+    ],
+    "description": "一只白猫先抬头观察，随后嘴巴夸张放大并持续张嘴尖叫，适合抗议、崩溃或高声呼喊。",
+    "hasAudio": true,
+    "meanVolumeDb": -18.3,
+    "maxVolumeDb": 0.0,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "248",
+    "name": "挥爪跳舞小猫",
+    "src": "assets/clips/248-905082856379929954.mp4",
+    "poster": "assets/posters-keyed/248-905082856379929954.webp",
+    "tags": [
+      "全部",
+      "猫",
+      "跳舞",
+      "挥爪",
+      "开心",
+      "可爱"
+    ],
+    "description": "一只灰白小猫直立扭动身体，轮流抬起前爪并左右跳舞，动作轻快可爱。",
+    "hasAudio": true,
+    "meanVolumeDb": -11.9,
+    "maxVolumeDb": 0.0,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "250",
+    "name": "挥爪蹦跳小猫",
+    "src": "assets/clips/250-1082552830387970518.mp4",
+    "poster": "assets/posters-keyed/250-1082552830387970518.webp",
+    "tags": [
+      "全部",
+      "猫",
+      "蹦跳",
+      "挥爪",
+      "跳舞",
+      "可爱"
+    ],
+    "description": "一只小奶猫用后腿站立，双爪在胸前交替挥动并左右蹦跳，动作像认真跳一段可爱舞蹈。",
+    "hasAudio": true,
+    "meanVolumeDb": -17.4,
+    "maxVolumeDb": -2.8,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "251",
+    "name": "抱黄杯偷看猫",
+    "src": "assets/clips/251-1009932285282377378.mp4",
+    "poster": "assets/posters-keyed/251-1009932285282377378.webp",
+    "tags": [
+      "全部",
+      "猫",
+      "偷看",
+      "试探",
+      "吃东西",
+      "好奇"
+    ],
+    "description": "一只圆脸猫躲在黄色圆柱物后面，睁大眼睛左右观察并把嘴靠近物体，像偷喝、偷吃或小心试探。",
+    "hasAudio": true,
+    "meanVolumeDb": -22.3,
+    "maxVolumeDb": -6.0,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "252",
+    "name": "直立扭腰胖猫",
+    "src": "assets/clips/252-1067705024145759037.mp4",
+    "poster": "assets/posters-keyed/252-1067705024145759037.webp",
+    "tags": [
+      "全部",
+      "猫",
+      "站立",
+      "扭腰",
+      "跳舞",
+      "认真"
+    ],
+    "description": "一只胖猫用后腿站立，前爪放在胸前并缓慢左右扭腰，表情认真，适合笨拙跳舞或展示自己。",
+    "hasAudio": true,
+    "meanVolumeDb": -15.5,
+    "maxVolumeDb": -6.4,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "254",
+    "name": "方向盘前困倦猫",
+    "src": "assets/clips/254-1093741459758835234.mp4",
+    "poster": "assets/posters-keyed/254-1093741459758835234.webp",
+    "tags": [
+      "全部",
+      "猫",
+      "开车",
+      "困倦",
+      "被吵醒",
+      "不耐烦"
+    ],
+    "description": "一只灰白猫趴在方向盘旁，先闭眼打瞌睡，随后抬头露出不耐烦表情，像疲劳驾驶或被吵醒。",
+    "hasAudio": true,
+    "meanVolumeDb": -12.5,
+    "maxVolumeDb": -0.4,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "256",
+    "name": "挥剑施法黑猫",
+    "src": "assets/clips/256-1143773636604776333.mp4",
+    "poster": "assets/posters-keyed/256-1143773636604776333.webp",
+    "tags": [
+      "全部",
+      "猫",
+      "挥剑",
+      "战斗",
+      "施法",
+      "热血"
+    ],
+    "description": "一只直立黑猫挥舞长剑并向侧面出招，结尾抬手靠近橙色光球，像战斗或施放技能。",
+    "hasAudio": true,
+    "meanVolumeDb": -17.3,
+    "maxVolumeDb": -0.7,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "258",
+    "name": "变成猫饼黑猫",
+    "src": "assets/clips/258-1110348483128021608.mp4",
+    "poster": "assets/posters-keyed/258-1110348483128021608.webp",
+    "tags": [
+      "全部",
+      "猫",
+      "趴下",
+      "躺平",
+      "疲惫",
+      "放弃"
+    ],
+    "description": "一只黑猫从缩起坐姿逐渐伏低，最后完全趴成一团猫饼，适合累倒、放弃或原地躺平。",
+    "hasAudio": true,
+    "meanVolumeDb": -22.6,
+    "maxVolumeDb": -9.3,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "260",
+    "name": "双猫贴贴跳舞",
+    "src": "assets/clips/260-1131881318949871607.mp4",
+    "poster": "assets/posters-keyed/260-1131881318949871607.webp",
+    "tags": [
+      "全部",
+      "猫",
+      "双人",
+      "跳舞",
+      "贴贴",
+      "友情"
+    ],
+    "description": "两只小猫并排站立，互相靠近并同步挥动前爪，结尾贴在一起，适合友情、陪伴和庆祝。",
+    "hasAudio": true,
+    "meanVolumeDb": -15.2,
+    "maxVolumeDb": 0.0,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "261",
+    "name": "瞪眼张嘴橘猫",
+    "src": "assets/clips/261-1092615559592211302.mp4",
+    "poster": "assets/posters-keyed/261-1092615559592211302.webp",
+    "tags": [
+      "全部",
+      "猫",
+      "震惊",
+      "瞪眼",
+      "张嘴",
+      "特写"
+    ],
+    "description": "一只橘猫面部特写，睁大眼睛、嘴巴张成圆形，中途眨一只眼，像震惊到说不出话。",
+    "hasAudio": true,
+    "meanVolumeDb": -25.1,
+    "maxVolumeDb": -9.3,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "262",
+    "name": "回头贴脸男子",
+    "src": "assets/clips/262-1127096244298316157.mp4",
+    "poster": "assets/posters-keyed/262-1127096244298316157.webp",
+    "tags": [
+      "全部",
+      "人物",
+      "回头",
+      "贴脸",
+      "怀疑",
+      "警觉"
+    ],
+    "description": "一名黑衣男子先背对镜头回头观察，随后脸部突然贴近镜头，神情严肃而怀疑。",
+    "hasAudio": true,
+    "meanVolumeDb": -21.6,
+    "maxVolumeDb": -7.8,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "263",
+    "name": "戴草帽接电话狗",
+    "src": "assets/clips/263-1067916130400156582.mp4",
+    "poster": "assets/posters-keyed/263-1067916130400156582.webp",
+    "tags": [
+      "全部",
+      "狗",
+      "打电话",
+      "惊讶",
+      "警觉",
+      "草帽"
+    ],
+    "description": "一只戴草帽的棕狗把手机贴在耳边，眼睛睁大并左右转头，像接到令人意外的电话。",
+    "hasAudio": true,
+    "meanVolumeDb": -15.7,
+    "maxVolumeDb": -3.7,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "264",
+    "name": "贴脸审视花猫",
+    "src": "assets/clips/264-984106956069310023.mp4",
+    "poster": "assets/posters-keyed/264-984106956069310023.webp",
+    "tags": [
+      "全部",
+      "猫",
+      "贴脸",
+      "审视",
+      "怀疑",
+      "冷淡"
+    ],
+    "description": "一只花猫从半身侧看逐渐靠近镜头，眯着眼睛保持冷淡表情，像怀疑或仔细审视对方。",
+    "hasAudio": true,
+    "meanVolumeDb": -20.4,
+    "maxVolumeDb": -9.0,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "265",
+    "name": "三只彩色跳舞猫",
+    "src": "assets/clips/265-812688695292109420.mp4",
+    "poster": "assets/posters-keyed/265-812688695292109420.webp",
+    "tags": [
+      "全部",
+      "猫",
+      "群体",
+      "跳舞",
+      "彩色",
+      "派对"
+    ],
+    "description": "三只经过彩色处理的小猫并排站立，同步挥爪和摆动身体，颜色不断变化，适合派对或欢乐群舞。",
+    "hasAudio": true,
+    "meanVolumeDb": -23.0,
+    "maxVolumeDb": -8.5,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "267",
+    "name": "旋转变形灰猫",
+    "src": "assets/clips/267-925841635882392698.mp4",
+    "poster": "assets/posters-keyed/267-925841635882392698.webp",
+    "tags": [
+      "全部",
+      "猫",
+      "旋转",
+      "变形",
+      "失控",
+      "滑稽"
+    ],
+    "description": "一只灰猫直立张开四肢，在绿幕中央旋转并被拉伸成星形轮廓，动作荒诞像被甩飞。",
+    "hasAudio": true,
+    "meanVolumeDb": -16.6,
+    "maxVolumeDb": -3.2,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "268",
+    "name": "拔剑攻击黑猫",
+    "src": "assets/clips/268-923519467353557815.mp4",
+    "poster": "assets/posters-keyed/268-923519467353557815.webp",
+    "tags": [
+      "全部",
+      "猫",
+      "挥剑",
+      "攻击",
+      "战斗",
+      "反击"
+    ],
+    "description": "一只直立黑猫从抱剑姿势迅速挥剑横扫，最后抬剑指向侧面，适合决斗或突然反击。",
+    "hasAudio": true,
+    "meanVolumeDb": -17.1,
+    "maxVolumeDb": -1.0,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "269",
+    "name": "叉腰扭动小猫",
+    "src": "assets/clips/269-1103804189955618824.mp4",
+    "poster": "assets/posters-keyed/269-1103804189955618824.webp",
+    "tags": [
+      "全部",
+      "猫",
+      "叉腰",
+      "扭动",
+      "得意",
+      "跳舞"
+    ],
+    "description": "一只小灰猫用后腿站立，前爪放在腰侧并左右扭动身体，姿态自信又滑稽。",
+    "hasAudio": true,
+    "meanVolumeDb": -43.4,
+    "maxVolumeDb": -28.8,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "270",
+    "name": "抬头疑惑黑猫",
+    "src": "assets/clips/270-978477456532659997.mp4",
+    "poster": "assets/posters-keyed/270-978477456532659997.webp",
+    "tags": [
+      "全部",
+      "猫",
+      "抬头",
+      "疑惑",
+      "回头",
+      "观察"
+    ],
+    "description": "一只黑猫头部从仰头侧望慢慢转向正面，眼神保持疑惑，适合听见异常或寻找声音来源。",
+    "hasAudio": true,
+    "meanVolumeDb": -12.8,
+    "maxVolumeDb": -0.2,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "271",
+    "name": "黑衣男子匆忙退场",
+    "src": "assets/clips/271-875739090041810997.mp4",
+    "poster": "assets/posters-keyed/271-875739090041810997.webp",
+    "tags": [
+      "全部",
+      "人物",
+      "后退",
+      "逃跑",
+      "离场",
+      "惊慌"
+    ],
+    "description": "一名穿黑衣的人先近距离抬手，随后快速后退并跑出画面，适合受到惊吓后撤退或突然离场。",
+    "hasAudio": true,
+    "meanVolumeDb": -12.0,
+    "maxVolumeDb": -4.2,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "273",
+    "name": "狐獴队列群舞",
+    "src": "assets/clips/273-1144195849113839043.mp4",
+    "poster": "assets/posters-keyed/273-1144195849113839043.webp",
+    "tags": [
+      "全部",
+      "动物",
+      "狐獴",
+      "群体",
+      "跳舞",
+      "庆祝"
+    ],
+    "description": "多只小狐獴排成一列同步挥手跳舞，队伍逐渐移动并变成几只靠在一起，场面热闹。",
+    "hasAudio": true,
+    "meanVolumeDb": -10.6,
+    "maxVolumeDb": -2.3,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "274",
+    "name": "嫌弃白花猫",
+    "src": "assets/clips/274-997828861196757692.mp4",
+    "poster": "assets/posters-keyed/274-997828861196757692.webp",
+    "tags": [
+      "全部",
+      "猫",
+      "嫌弃",
+      "无语",
+      "冷淡",
+      "反应"
+    ],
+    "description": "一只白底花猫保持半眯眼和撇嘴表情，头部轻微转动，像嫌弃、无语或不想搭理。",
+    "hasAudio": true,
+    "meanVolumeDb": -18.4,
+    "maxVolumeDb": -0.0,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "275",
+    "name": "男子侧目回头",
+    "src": "assets/clips/275-981432943792974265.mp4",
+    "poster": "assets/posters-keyed/275-981432943792974265.webp",
+    "tags": [
+      "全部",
+      "人物",
+      "侧目",
+      "回头",
+      "怀疑",
+      "平静"
+    ],
+    "description": "一名男子从正面平静站立逐渐把头转向侧面，露出克制而怀疑的侧目表情。",
+    "hasAudio": true,
+    "meanVolumeDb": -31.5,
+    "maxVolumeDb": -11.9,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "276",
+    "name": "像素墨镜飞入特效",
+    "src": "assets/clips/276-806777720755771603.mp4",
+    "poster": "assets/posters-keyed/276-806777720755771603.webp",
+    "tags": [
+      "全部",
+      "特效",
+      "墨镜",
+      "耍酷",
+      "得意",
+      "转场",
+      "静音音轨"
+    ],
+    "description": "一副黑白像素墨镜从侧面滑入绿幕中央并停住，适合得意收尾、耍酷或经典墨镜梗。",
+    "hasAudio": true,
+    "meanVolumeDb": -90.3,
+    "maxVolumeDb": -90.3,
+    "hasAudibleAudio": false
+  },
+  {
+    "id": "277",
+    "name": "张臂欢呼女子",
+    "src": "assets/clips/277-1048212882034096647.mp4",
+    "poster": "assets/posters-keyed/277-1048212882034096647.webp",
+    "tags": [
+      "全部",
+      "人物",
+      "欢呼",
+      "起身",
+      "跳舞",
+      "兴奋"
+    ],
+    "description": "一名女子从跪坐姿势起身，抬手指向前方后张开双臂大幅跳动，像兴奋欢呼或夸张表演。",
+    "hasAudio": true,
+    "meanVolumeDb": -11.9,
+    "maxVolumeDb": 0.0,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "278",
+    "name": "眯眼坏笑橘猫",
+    "src": "assets/clips/278-587438345190871687.mp4",
+    "poster": "assets/posters-keyed/278-587438345190871687.webp",
+    "tags": [
+      "全部",
+      "猫",
+      "坏笑",
+      "偷笑",
+      "得意",
+      "满足"
+    ],
+    "description": "一只橘猫闭着眼睛，嘴角逐渐上扬并露出满足笑容，像忍不住偷笑或暗自得意。",
+    "hasAudio": true,
+    "meanVolumeDb": -19.4,
+    "maxVolumeDb": -5.0,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "280",
+    "name": "坐着挥爪黑猫",
+    "src": "assets/clips/280-925841635918937460.mp4",
+    "poster": "assets/posters-keyed/280-925841635918937460.webp",
+    "tags": [
+      "全部",
+      "猫",
+      "挥爪",
+      "打招呼",
+      "摆动",
+      "开心",
+      "静音音轨"
+    ],
+    "description": "一只黑猫坐立着抬起前爪反复挥动，身体左右轻晃，像打招呼、鼓掌或跟着节奏摆动。",
+    "hasAudio": true,
+    "meanVolumeDb": -90.3,
+    "maxVolumeDb": -90.3,
+    "hasAudibleAudio": false
+  },
+  {
+    "id": "281",
+    "name": "走动后躺平灰猫",
+    "src": "assets/clips/281-879890845952443448.mp4",
+    "poster": "assets/posters-keyed/281-879890845952443448.webp",
+    "tags": [
+      "全部",
+      "猫",
+      "走路",
+      "趴下",
+      "躺平",
+      "反差"
+    ],
+    "description": "一只灰猫先站立向前走，随后迅速趴下缩成猫饼，适合表现忙了一下就放弃或突然躺平。",
+    "hasAudio": true,
+    "meanVolumeDb": -15.8,
+    "maxVolumeDb": -2.8,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "284",
+    "name": "双狐獴对话舞",
+    "src": "assets/clips/284-1071575305119805784.mp4",
+    "poster": "assets/posters-keyed/284-1071575305119805784.webp",
+    "tags": [
+      "全部",
+      "动物",
+      "狐獴",
+      "双人",
+      "对话",
+      "跳舞"
+    ],
+    "description": "两只直立狐獴面对面挥动前爪并轮流摆动身体，像争论、对话或配合跳双人舞。",
+    "hasAudio": true,
+    "meanVolumeDb": -26.1,
+    "maxVolumeDb": -8.9,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "285",
+    "name": "害羞脸红猫头",
+    "src": "assets/clips/285-1088956384940023268.mp4",
+    "poster": "assets/posters-keyed/285-1088956384940023268.webp",
+    "tags": [
+      "全部",
+      "猫",
+      "害羞",
+      "脸红",
+      "可爱",
+      "反应"
+    ],
+    "description": "一只圆脸灰白猫头悬浮在绿幕中间，脸颊突然出现粉红腮红后恢复，适合害羞或受到夸奖。",
+    "hasAudio": true,
+    "meanVolumeDb": -32.5,
+    "maxVolumeDb": -6.8,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "290",
+    "name": "史瑞克摊手跳舞",
+    "src": "assets/clips/290-1038220520366230982.mp4",
+    "poster": "assets/posters-keyed/290-1038220520366230982.webp",
+    "tags": [
+      "全部",
+      "卡通角色",
+      "摊手",
+      "跳舞",
+      "困惑",
+      "搞怪"
+    ],
+    "description": "史瑞克角色先摊开双手，随后拍手并双手抱头扭动，动作夸张，适合困惑、庆祝或搞怪表演。",
+    "hasAudio": true,
+    "meanVolumeDb": -17.4,
+    "maxVolumeDb": -7.9,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "292",
+    "name": "直立摆动胖猫",
+    "src": "assets/clips/292-1000573242210775141.mp4",
+    "poster": "assets/posters-keyed/292-1000573242210775141.webp",
+    "tags": [
+      "全部",
+      "猫",
+      "站立",
+      "摆动",
+      "跳舞",
+      "认真"
+    ],
+    "description": "一只胖猫用后腿站立，前爪在胸前交替摆动并左右转身，像笨拙但认真的舞蹈。",
+    "hasAudio": true,
+    "meanVolumeDb": -8.6,
+    "maxVolumeDb": 0.0,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "293",
+    "name": "三只狐獴贴贴",
+    "src": "assets/clips/293-1047649932090773115.mp4",
+    "poster": "assets/posters-keyed/293-1047649932090773115.webp",
+    "tags": [
+      "全部",
+      "动物",
+      "狐獴",
+      "群体",
+      "跳舞",
+      "友情"
+    ],
+    "description": "三只小狐獴并排挥手跳舞，随后互相靠近贴在一起，适合团队合作、友情和集体庆祝。",
+    "hasAudio": true,
+    "meanVolumeDb": -16.7,
+    "maxVolumeDb": -7.7,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "294",
+    "name": "站立黑猩猩",
+    "src": "assets/clips/294-1136033074791582900.mp4",
+    "poster": "assets/posters-keyed/294-1136033074791582900.webp",
+    "tags": [
+      "全部",
+      "动物",
+      "猩猩",
+      "站立",
+      "严肃",
+      "出场"
+    ],
+    "description": "一只黑猩猩直立站在绿幕中央，身体和手臂轻微晃动，神情严肃，适合沉默出场或威慑反应。",
+    "hasAudio": true,
+    "meanVolumeDb": -17.8,
+    "maxVolumeDb": -5.2,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "295",
+    "name": "蒙面英雄热舞",
+    "src": "assets/clips/295-1045820344707711579.mp4",
+    "poster": "assets/posters-keyed/295-1045820344707711579.webp",
+    "tags": [
+      "全部",
+      "卡通角色",
+      "英雄",
+      "跳舞",
+      "挥手",
+      "搞怪"
+    ],
+    "description": "一个蓝橙配色的蒙面卡通英雄转身挥动手臂并弯腰跳舞，动作有力又滑稽。",
+    "hasAudio": true,
+    "meanVolumeDb": -9.0,
+    "maxVolumeDb": -1.6,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "296",
+    "name": "直立跳跃灰狗",
+    "src": "assets/clips/296-960392689276398764.mp4",
+    "poster": "assets/posters-keyed/296-960392689276398764.webp",
+    "tags": [
+      "全部",
+      "狗",
+      "跳跃",
+      "站立",
+      "兴奋",
+      "离场"
+    ],
+    "description": "一只灰色长嘴小狗用后腿站立，身体向上跳起并在空中扭动，随后落出画面，适合兴奋扑跳。",
+    "hasAudio": true,
+    "meanVolumeDb": -13.9,
+    "maxVolumeDb": -2.3,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "297",
+    "name": "三只狐獴群舞",
+    "src": "assets/clips/297-1099441327846265316.mp4",
+    "poster": "assets/posters-keyed/297-1099441327846265316.webp",
+    "tags": [
+      "全部",
+      "动物",
+      "狐獴",
+      "群体",
+      "跳舞",
+      "庆祝"
+    ],
+    "description": "三只小狐獴并排挥动手臂跳舞，随后互相靠近贴成一团，适合团队庆祝和友情场面。",
+    "hasAudio": true,
+    "meanVolumeDb": -25.7,
+    "maxVolumeDb": -17.6,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "298",
+    "name": "礼物装害羞黑猫",
+    "src": "assets/clips/298-1018587640722933502.mp4",
+    "poster": "assets/posters-keyed/298-1018587640722933502.webp",
+    "tags": [
+      "全部",
+      "猫",
+      "礼物",
+      "害羞",
+      "节日",
+      "摇摆"
+    ],
+    "description": "一只黑猫戴着红色蝴蝶结、身体套在礼物造型装饰中，闭眼轻轻摇晃，像害羞送礼或节日登场。",
+    "hasAudio": true,
+    "meanVolumeDb": -22.3,
+    "maxVolumeDb": -4.8,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "300",
+    "name": "弹吉他白猫",
+    "src": "assets/clips/300-514606694944404941.mp4",
+    "poster": "assets/posters-keyed/300-514606694944404941.webp",
+    "tags": [
+      "全部",
+      "猫",
+      "吉他",
+      "演奏",
+      "音乐",
+      "表演"
+    ],
+    "description": "一只白猫坐着抱住木吉他，前爪反复拨动琴弦，像认真演奏或进行音乐表演。",
+    "hasAudio": true,
+    "meanVolumeDb": -22.3,
+    "maxVolumeDb": -6.0,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "302",
+    "name": "开车猫",
+    "src": "assets/clips/302-921267667518960758.mp4",
+    "poster": "assets/posters-keyed/302-921267667518960758.webp",
+    "tags": [
+      "全部",
+      "高手",
+      "从容",
+      "开车"
+    ],
+    "description": "一只开车的灰白猫，像个 从容的老司机",
+    "hasAudio": true,
+    "meanVolumeDb": -12.4,
+    "maxVolumeDb": -0.8,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "303",
+    "name": "侧身走过虎斑猫",
+    "src": "assets/clips/303-1100919071653235885.mp4",
+    "poster": "assets/posters-keyed/303-1100919071653235885.webp",
+    "tags": [
+      "全部",
+      "猫",
+      "走路",
+      "路过",
+      "寻找",
+      "离场"
+    ],
+    "description": "一只虎斑猫从画面一侧走入，保持侧身向前移动并逐渐走向另一侧，适合路过、寻找或离场。",
+    "hasAudio": true,
+    "meanVolumeDb": -19.9,
+    "maxVolumeDb": -8.8,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "304",
+    "name": "喘气黑狗头",
+    "src": "assets/clips/304-1104156033633101114.mp4",
+    "poster": "assets/posters-keyed/304-1104156033633101114.webp",
+    "tags": [
+      "全部",
+      "狗",
+      "喘气",
+      "疲惫",
+      "紧张",
+      "贴脸"
+    ],
+    "description": "一只黑狗头部特写持续张嘴吐舌、急促喘气，眼睛左右看，适合紧张、累坏或兴奋反应。",
+    "hasAudio": true,
+    "meanVolumeDb": -14.9,
+    "maxVolumeDb": -6.7,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "305",
+    "name": "张嘴惊讶虎斑猫",
+    "src": "assets/clips/305-1040753795129749990.mp4",
+    "poster": "assets/posters-keyed/305-1040753795129749990.webp",
+    "tags": [
+      "全部",
+      "猫",
+      "惊讶",
+      "张嘴",
+      "抬头",
+      "反应",
+      "静音音轨"
+    ],
+    "description": "一只虎斑猫从画面下方抬头出现，眼睛睁大并张嘴看向侧面，像突然听到不可思议的消息。",
+    "hasAudio": true,
+    "meanVolumeDb": -90.3,
+    "maxVolumeDb": -90.3,
+    "hasAudibleAudio": false
+  },
+  {
+    "id": "306",
+    "name": "挥剑光球黑猫",
+    "src": "assets/clips/306-1020487596801812213.mp4",
+    "poster": "assets/posters-keyed/306-1020487596801812213.webp",
+    "tags": [
+      "全部",
+      "猫",
+      "挥剑",
+      "战斗",
+      "施法",
+      "光球"
+    ],
+    "description": "一只直立黑猫先抱剑，随后横向挥剑并抬手触碰橙色光球，像攻击、施法或完成必杀技。",
+    "hasAudio": true,
+    "meanVolumeDb": -16.9,
+    "maxVolumeDb": -0.0,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "307",
+    "name": "仰头大叫青蛙",
+    "src": "assets/clips/307-932385929124783746.mp4",
+    "poster": "assets/posters-keyed/307-932385929124783746.webp",
+    "tags": [
+      "全部",
+      "卡通角色",
+      "青蛙",
+      "仰头",
+      "呐喊",
+      "说话"
+    ],
+    "description": "一个绿色青蛙角色站立并持续抬头张嘴，身体轻微上移，像悲伤呐喊、求救或高声唱歌。",
+    "hasAudio": true,
+    "meanVolumeDb": -24.2,
+    "maxVolumeDb": -11.0,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "308",
+    "name": "大眼黑色卡通猫",
+    "src": "assets/clips/308-988962399455066733.mp4",
+    "poster": "assets/posters-keyed/308-988962399455066733.webp",
+    "tags": [
+      "全部",
+      "卡通猫",
+      "大眼",
+      "无辜",
+      "好奇",
+      "浮动"
+    ],
+    "description": "一只黑色圆头卡通猫睁着巨大眼睛，轻轻上下浮动并转头仰望，表情无辜又好奇。",
+    "hasAudio": true,
+    "meanVolumeDb": -13.2,
+    "maxVolumeDb": 0.0,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "309",
+    "name": "劈叉起身跳舞男子",
+    "src": "assets/clips/309-964333338954647070.mp4",
+    "poster": "assets/posters-keyed/309-964333338954647070.webp",
+    "tags": [
+      "全部",
+      "人物",
+      "劈叉",
+      "起身",
+      "跳舞",
+      "搞怪"
+    ],
+    "description": "一名黑衣男子从坐地劈叉姿势快速起身，挥臂扭动后张腿站立，动作夸张有节奏。",
+    "hasAudio": true,
+    "meanVolumeDb": -26.1,
+    "maxVolumeDb": -6.2,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "310",
+    "name": "张臂舞动棕鼠",
+    "src": "assets/clips/310-1116892776339652831.mp4",
+    "poster": "assets/posters-keyed/310-1116892776339652831.webp",
+    "tags": [
+      "全部",
+      "动物",
+      "老鼠",
+      "张臂",
+      "跳舞",
+      "开心"
+    ],
+    "description": "一只棕色老鼠用后腿站立，张开双臂并左右晃动身体，像兴奋跳舞或迎接观众。",
+    "hasAudio": true,
+    "meanVolumeDb": -14.8,
+    "maxVolumeDb": -4.5,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "311",
+    "name": "战斗挥剑黑猫",
+    "src": "assets/clips/311-990088299337828652.mp4",
+    "poster": "assets/posters-keyed/311-990088299337828652.webp",
+    "tags": [
+      "全部",
+      "猫",
+      "挥剑",
+      "战斗",
+      "出招",
+      "热血"
+    ],
+    "description": "一只黑猫直立持剑，从准备姿势转为大幅挥剑，最后抬手靠近橙色光球，适合战斗高潮。",
+    "hasAudio": true,
+    "meanVolumeDb": -23.7,
+    "maxVolumeDb": -6.9,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "312",
+    "name": "白发动漫女孩摇摆",
+    "src": "assets/clips/312-1040542688923468190.mp4",
+    "poster": "assets/posters-keyed/312-1040542688923468190.webp",
+    "tags": [
+      "全部",
+      "动漫角色",
+      "摇摆",
+      "可爱",
+      "打招呼",
+      "说话"
+    ],
+    "description": "一个白发动漫女孩角色站在绿幕中央，身体和双手轻微左右摇摆，像可爱打招呼或闲聊。",
+    "hasAudio": true,
+    "meanVolumeDb": -12.1,
+    "maxVolumeDb": -1.3,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "314",
+    "name": "直立摆臂灰狗",
+    "src": "assets/clips/314-925841635921721069.mp4",
+    "poster": "assets/posters-keyed/314-925841635921721069.webp",
+    "tags": [
+      "全部",
+      "狗",
+      "站立",
+      "摆臂",
+      "跳舞",
+      "开心"
+    ],
+    "description": "一只灰色长嘴小狗用后腿站立，双臂展开并左右摆动，期间抬腿转身，像欢快跳舞。",
+    "hasAudio": true,
+    "meanVolumeDb": -15.7,
+    "maxVolumeDb": -5.9,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "315",
+    "name": "眯眼大笑橘猫",
+    "src": "assets/clips/315-981784787527818436.mp4",
+    "poster": "assets/posters-keyed/315-981784787527818436.webp",
+    "tags": [
+      "全部",
+      "猫",
+      "大笑",
+      "眯眼",
+      "开心",
+      "得意"
+    ],
+    "description": "一只橘猫闭眼张嘴露出笑容，头部轻轻左右摇晃，像笑到停不下来或暗自得意。",
+    "hasAudio": true,
+    "meanVolumeDb": -19.3,
+    "maxVolumeDb": -3.8,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "316",
+    "name": "彩色旋转小老鼠",
+    "src": "assets/clips/316-898327456922660079.mp4",
+    "poster": "assets/posters-keyed/316-898327456922660079.webp",
+    "tags": [
+      "全部",
+      "动物",
+      "老鼠",
+      "旋转",
+      "变色",
+      "跳舞"
+    ],
+    "description": "一只小老鼠直立旋转和扭动，身体颜色在粉色与灰色间变化，动作滑稽像快速热舞。",
+    "hasAudio": true,
+    "meanVolumeDb": -22.9,
+    "maxVolumeDb": -12.6,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "317",
+    "name": "双猫对峙挥爪",
+    "src": "assets/clips/317-1085156472702523944.mp4",
+    "poster": "assets/posters-keyed/317-1085156472702523944.webp",
+    "tags": [
+      "全部",
+      "猫",
+      "双人",
+      "对峙",
+      "挥爪",
+      "争吵"
+    ],
+    "description": "两只猫面对面站立，一只抬起前爪、另一只向前伸爪，动作像争吵、击掌或准备打架。",
+    "hasAudio": true,
+    "meanVolumeDb": -30.7,
+    "maxVolumeDb": -2.2,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "318",
+    "name": "严肃站立猫头鹰",
+    "src": "assets/clips/318-1020276490589011849.mp4",
+    "poster": "assets/posters-keyed/318-1020276490589011849.webp",
+    "tags": [
+      "全部",
+      "动物",
+      "猫头鹰",
+      "凝视",
+      "严肃",
+      "静止"
+    ],
+    "description": "一只猫头鹰正面站立，身体几乎不动，只轻微转头凝视镜头，适合严肃审视或沉默等待。",
+    "hasAudio": true,
+    "meanVolumeDb": -26.3,
+    "maxVolumeDb": -9.3,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "319",
+    "name": "贴脸长鼻狗",
+    "src": "assets/clips/319-1148699448699826770.mp4",
+    "poster": "assets/posters-keyed/319-1148699448699826770.webp",
+    "tags": [
+      "全部",
+      "狗",
+      "贴脸",
+      "长鼻",
+      "凝视",
+      "呆萌"
+    ],
+    "description": "一只长鼻白狗以超近景直视镜头，鼻子占据画面中央并轻微转头，适合贴脸检查或呆萌质问。",
+    "hasAudio": true,
+    "meanVolumeDb": -52.4,
+    "maxVolumeDb": -31.5,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "320",
+    "name": "张嘴尖叫小狗",
+    "src": "assets/clips/320-970244313477101656.mp4",
+    "poster": "assets/posters-keyed/320-970244313477101656.webp",
+    "tags": [
+      "全部",
+      "狗",
+      "尖叫",
+      "张嘴",
+      "激动",
+      "反应"
+    ],
+    "description": "一只小狗头部位于画面下方，嘴巴始终张得很大，像高声尖叫、狂笑或激动吠叫。",
+    "hasAudio": true,
+    "meanVolumeDb": -20.1,
+    "maxVolumeDb": -0.7,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "322",
+    "name": "圆脸发呆猫头",
+    "src": "assets/clips/322-953355814891642522.mp4",
+    "poster": "assets/posters-keyed/322-953355814891642522.webp",
+    "tags": [
+      "全部",
+      "猫",
+      "发呆",
+      "无辜",
+      "凝视",
+      "静止"
+    ],
+    "description": "一只圆脸灰白猫头悬浮在绿幕中央，保持大眼直视和轻微摆动，适合无辜发呆或等待回答。",
+    "hasAudio": true,
+    "meanVolumeDb": -16.8,
+    "maxVolumeDb": -6.2,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "323",
+    "name": "双猴同步跳舞",
+    "src": "assets/clips/323-1123437069572523077.mp4",
+    "poster": "assets/posters-keyed/323-1123437069572523077.webp",
+    "tags": [
+      "全部",
+      "动物",
+      "猴子",
+      "双人",
+      "跳舞",
+      "庆祝"
+    ],
+    "description": "一白一黑两只小猴并排站立，身体同步左右摆动并挥动手臂，适合搭档登场和双人庆祝。",
+    "hasAudio": true,
+    "meanVolumeDb": -20.7,
+    "maxVolumeDb": -10.1,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "324",
+    "name": "闭眼爆笑橘猫",
+    "src": "assets/clips/324-1088745278684843172.mp4",
+    "poster": "assets/posters-keyed/324-1088745278684843172.webp",
+    "tags": [
+      "全部",
+      "猫",
+      "爆笑",
+      "摇头",
+      "开心",
+      "特写"
+    ],
+    "description": "一只橘猫面部特写，闭眼张嘴大笑并左右摇头，情绪强烈，适合听到笑话或胜利后的爆笑。",
+    "hasAudio": true,
+    "meanVolumeDb": -13.6,
+    "maxVolumeDb": -0.1,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "325",
+    "name": "黑熊摆臂跳舞",
+    "src": "assets/clips/325-879046421021945899.mp4",
+    "poster": "assets/posters-keyed/325-879046421021945899.webp",
+    "tags": [
+      "全部",
+      "动物",
+      "黑熊",
+      "摆臂",
+      "跳舞",
+      "欢乐"
+    ],
+    "description": "一只直立黑熊在绿幕前交替挥动手臂、抬腿并扭动身体，动作笨拙而欢乐。",
+    "hasAudio": true,
+    "meanVolumeDb": -9.6,
+    "maxVolumeDb": 0.0,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "327",
+    "name": "趴成一团黑白猫",
+    "src": "assets/clips/327-1092404453386949240.mp4",
+    "poster": "assets/posters-keyed/327-1092404453386949240.webp",
+    "tags": [
+      "全部",
+      "猫",
+      "趴下",
+      "休息",
+      "躺平",
+      "平静"
+    ],
+    "description": "一只黑白猫缩成圆团趴在绿幕中央，身体几乎不动，只轻微抬头，适合休息、躺平或冷静旁观。",
+    "hasAudio": true,
+    "meanVolumeDb": -27.3,
+    "maxVolumeDb": -13.6,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "329",
+    "name": "坐着仰望橘猫",
+    "src": "assets/clips/329-771030398736346070.mp4",
+    "poster": "assets/posters-keyed/329-771030398736346070.webp",
+    "tags": [
+      "全部",
+      "猫",
+      "坐着",
+      "仰望",
+      "期待",
+      "平静"
+    ],
+    "description": "一只橘猫端坐不动，持续抬头望向上方，神情平静又期待，适合等待食物或仰望目标。",
+    "hasAudio": true,
+    "meanVolumeDb": -25.3,
+    "maxVolumeDb": -8.4,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "331",
+    "name": "香蕉装跳舞小猫",
+    "src": "assets/clips/331-984318062304787469.mp4",
+    "poster": "assets/posters-keyed/331-984318062304787469.webp",
+    "tags": [
+      "全部",
+      "猫",
+      "香蕉装",
+      "走路",
+      "跳舞",
+      "害羞"
+    ],
+    "description": "一只穿黄色香蕉服的小猫低头迈步并轻轻摆动身体，像害羞登场或笨拙跳舞，结尾带平台画面。",
+    "hasAudio": true,
+    "meanVolumeDb": -19.7,
+    "maxVolumeDb": -0.4,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "332",
+    "name": "摊手跳舞奶牛猫",
+    "src": "assets/clips/332-670332725814492967.mp4",
+    "poster": "assets/posters-keyed/332-670332725814492967.webp",
+    "tags": [
+      "全部",
+      "猫",
+      "摊手",
+      "挥爪",
+      "跳舞",
+      "无奈"
+    ],
+    "description": "一只黑白奶牛猫直立，双爪先向两侧摊开再交替伸出，像无奈摊手后开始跳舞。",
+    "hasAudio": true,
+    "meanVolumeDb": -12.3,
+    "maxVolumeDb": 0.0,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "333",
+    "name": "认真热舞小奶猫",
+    "src": "assets/clips/333-651122059457403687.mp4",
+    "poster": "assets/posters-keyed/333-651122059457403687.webp",
+    "tags": [
+      "全部",
+      "猫",
+      "跳舞",
+      "蹦跳",
+      "挥爪",
+      "可爱"
+    ],
+    "description": "一只小奶猫用后腿站立，双爪在胸前快速交替并左右跳动，像投入地跳一段完整舞蹈。",
+    "hasAudio": true,
+    "meanVolumeDb": -23.4,
+    "maxVolumeDb": -8.8,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "334",
+    "name": "小白猫转身跑开",
+    "src": "assets/clips/334-1045538869765228781.mp4",
+    "poster": "assets/posters-keyed/334-1045538869765228781.webp",
+    "tags": [
+      "全部",
+      "猫",
+      "转身",
+      "走路",
+      "逃跑",
+      "离场"
+    ],
+    "description": "一只体型很小的白猫从侧面迈步，转身后快速向远处移动，适合路过、逃跑或突然离场。",
+    "hasAudio": true,
+    "meanVolumeDb": -10.9,
+    "maxVolumeDb": 0.0,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "335",
+    "name": "兴奋跳起小狗",
+    "src": "assets/clips/335-896990450775748593.mp4",
+    "poster": "assets/posters-keyed/335-896990450775748593.webp",
+    "tags": [
+      "全部",
+      "狗",
+      "跳跃",
+      "兴奋",
+      "张嘴",
+      "欢迎"
+    ],
+    "description": "一只杰克罗素小狗张大嘴巴、伸出舌头向上跳起，前腿悬空摆动，适合极度兴奋或冲出来欢迎。",
+    "hasAudio": true,
+    "meanVolumeDb": -48.9,
+    "maxVolumeDb": -29.3,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "336",
+    "name": "横剑出招黑猫",
+    "src": "assets/clips/336-994028949006080939.mp4",
+    "poster": "assets/posters-keyed/336-994028949006080939.webp",
+    "tags": [
+      "全部",
+      "猫",
+      "挥剑",
+      "战斗",
+      "反击",
+      "英雄"
+    ],
+    "description": "一只直立黑猫先抱住长剑，随后大幅横向挥剑并恢复站姿，适合决斗、反击或英雄出场。",
+    "hasAudio": true,
+    "meanVolumeDb": -14.4,
+    "maxVolumeDb": 0.0,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "337",
+    "name": "站立慢舞胖猫",
+    "src": "assets/clips/337-1106478202186738640.mp4",
+    "poster": "assets/posters-keyed/337-1106478202186738640.webp",
+    "tags": [
+      "全部",
+      "猫",
+      "站立",
+      "摆动",
+      "跳舞",
+      "认真"
+    ],
+    "description": "一只胖猫用后腿站立，双爪贴在胸前并缓慢左右摆动，动作认真而笨拙。",
+    "hasAudio": true,
+    "meanVolumeDb": -14.6,
+    "maxVolumeDb": -4.8,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "338",
+    "name": "伸长脖子虎斑猫",
+    "src": "assets/clips/338-1047790669558401301.mp4",
+    "poster": "assets/posters-keyed/338-1047790669558401301.webp",
+    "tags": [
+      "全部",
+      "猫",
+      "直立",
+      "伸长",
+      "张望",
+      "滑稽"
+    ],
+    "description": "一只虎斑猫用后腿直立，身体拉长并抬头左右晃动，像努力看清远处或滑稽站岗。",
+    "hasAudio": true,
+    "meanVolumeDb": -12.3,
+    "maxVolumeDb": -4.0,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "339",
+    "name": "伸爪指责橘猫",
+    "src": "assets/clips/339-865254147166406127.mp4",
+    "poster": "assets/posters-keyed/339-865254147166406127.webp",
+    "tags": [
+      "全部",
+      "猫",
+      "指向",
+      "指责",
+      "生气",
+      "说话"
+    ],
+    "description": "一只橘猫从侧面伸出前爪不断向前指点，像生气训话、提出要求或指责对方，结尾带平台画面。",
+    "hasAudio": true,
+    "meanVolumeDb": -17.4,
+    "maxVolumeDb": -0.0,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "340",
+    "name": "张开四肢灰猫",
+    "src": "assets/clips/340-1058979299865946151.mp4",
+    "poster": "assets/posters-keyed/340-1058979299865946151.webp",
+    "tags": [
+      "全部",
+      "猫",
+      "张臂",
+      "弹跳",
+      "出场",
+      "夸张"
+    ],
+    "description": "一只灰猫直立并把四肢向两侧完全张开，身体上下弹动，像夸张展示、扑来或突然出现。",
+    "hasAudio": true,
+    "meanVolumeDb": -60.4,
+    "maxVolumeDb": -46.7,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "342",
+    "name": "开合双臂灰猫",
+    "src": "assets/clips/342-1122663013406999034.mp4",
+    "poster": "assets/posters-keyed/342-1122663013406999034.webp",
+    "tags": [
+      "全部",
+      "猫",
+      "张臂",
+      "拥抱",
+      "欢迎",
+      "站立"
+    ],
+    "description": "一只灰猫用后腿站立，双臂从完全张开逐渐收回胸前，像欢迎拥抱后恢复站姿。",
+    "hasAudio": true,
+    "meanVolumeDb": -43.3,
+    "maxVolumeDb": -29.1,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "344",
+    "name": "小灰猫抬爪招手",
+    "src": "assets/clips/344-1072419730036180036.mp4",
+    "poster": "assets/posters-keyed/344-1072419730036180036.webp",
+    "tags": [
+      "全部",
+      "猫",
+      "挥爪",
+      "打招呼",
+      "站立",
+      "可爱"
+    ],
+    "description": "一只体型很小的灰猫直立，抬起一只前爪向侧面挥动，像远距离打招呼或提出问题。",
+    "hasAudio": true,
+    "meanVolumeDb": -15.6,
+    "maxVolumeDb": -1.9,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "346",
+    "name": "站立挥爪仓鼠",
+    "src": "assets/clips/346-865254147166405705.mp4",
+    "poster": "assets/posters-keyed/346-865254147166405705.webp",
+    "tags": [
+      "全部",
+      "动物",
+      "仓鼠",
+      "挥爪",
+      "期待",
+      "祈求"
+    ],
+    "description": "一只浅棕色仓鼠用后腿站立，双爪举在胸前轻轻挥动，头部仰起，像祈求或期待食物。",
+    "hasAudio": true,
+    "meanVolumeDb": -18.4,
+    "maxVolumeDb": -0.7,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "347",
+    "name": "踢腿跳舞小猫",
+    "src": "assets/clips/347-932808141582891056.mp4",
+    "poster": "assets/posters-keyed/347-932808141582891056.webp",
+    "tags": [
+      "全部",
+      "猫",
+      "踢腿",
+      "跳舞",
+      "兴奋",
+      "站立"
+    ],
+    "description": "一只小灰猫直立跳动，交替抬腿并挥动前爪，动作幅度较大，像兴奋踢踏舞。",
+    "hasAudio": true,
+    "meanVolumeDb": -19.4,
+    "maxVolumeDb": -7.0,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "348",
+    "name": "双猫贴脸对视",
+    "src": "assets/clips/348-1040753795129749968.mp4",
+    "poster": "assets/posters-keyed/348-1040753795129749968.webp",
+    "tags": [
+      "全部",
+      "猫",
+      "双人",
+      "对视",
+      "对峙",
+      "交流",
+      "静音音轨"
+    ],
+    "description": "一只橘白猫和一只虎斑猫面对面靠近，互相凝视并轻微转头，像对峙、商量或交换眼神。",
+    "hasAudio": true,
+    "meanVolumeDb": -90.3,
+    "maxVolumeDb": -90.3,
+    "hasAudibleAudio": false
+  },
+  {
+    "id": "349",
+    "name": "低头捂脸灰猫",
+    "src": "assets/clips/349-1038079782845719448.mp4",
+    "poster": "assets/posters-keyed/349-1038079782845719448.webp",
+    "tags": [
+      "全部",
+      "猫",
+      "捂脸",
+      "低头",
+      "害羞",
+      "难过"
+    ],
+    "description": "一只灰猫低头蜷缩并用前爪靠近脸部，随后稍微转身，像害羞捂脸、难过或不敢看。",
+    "hasAudio": true,
+    "meanVolumeDb": -18.6,
+    "maxVolumeDb": -4.9,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "350",
+    "name": "走动张嘴白猫",
+    "src": "assets/clips/350-1088604541197676467.mp4",
+    "poster": "assets/posters-keyed/350-1088604541197676467.webp",
+    "tags": [
+      "全部",
+      "猫",
+      "走路",
+      "转身",
+      "张嘴",
+      "离场"
+    ],
+    "description": "一只白猫从侧面向前走动，转身后张开嘴巴，像边走边叫、发现目标或准备离开。",
+    "hasAudio": true,
+    "meanVolumeDb": -26.8,
+    "maxVolumeDb": -2.6,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "351",
+    "name": "快速转身白猫",
+    "src": "assets/clips/351-1024076402752254347.mp4",
+    "poster": "assets/posters-keyed/351-1024076402752254347.webp",
+    "tags": [
+      "全部",
+      "猫",
+      "转身",
+      "逃跑",
+      "离场",
+      "慌张"
+    ],
+    "description": "一只白猫从张开四肢的姿势落下，快速转身并向画面外移动，适合突然逃走或忙乱离场。",
+    "hasAudio": true,
+    "meanVolumeDb": -11.5,
+    "maxVolumeDb": 0.0,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "352",
+    "name": "豹纹头巾侧目猫",
+    "src": "assets/clips/352-925841635918910886.mp4",
+    "poster": "assets/posters-keyed/352-925841635918910886.webp",
+    "tags": [
+      "全部",
+      "猫",
+      "头巾",
+      "侧目",
+      "审视",
+      "高冷"
+    ],
+    "description": "一只虎斑猫裹着豹纹头巾，先看向侧面再慢慢转正，眼神严肃，像贵妇审视或冷淡侧目。",
+    "hasAudio": true,
+    "meanVolumeDb": -19.2,
+    "maxVolumeDb": -3.9,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "353",
+    "name": "张臂弹跳奶猫",
+    "src": "assets/clips/353-1057783031352241609.mp4",
+    "poster": "assets/posters-keyed/353-1057783031352241609.webp",
+    "tags": [
+      "全部",
+      "猫",
+      "弹跳",
+      "张臂",
+      "欢迎",
+      "可爱"
+    ],
+    "description": "一只浅色小奶猫张开双爪，在绿幕中央上下弹跳并轻微转身，像开心欢迎或求抱抱。",
+    "hasAudio": true,
+    "meanVolumeDb": -15.2,
+    "maxVolumeDb": -7.0,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "354",
+    "name": "圆脸发呆仓鼠",
+    "src": "assets/clips/354-1112318807990829175.mp4",
+    "poster": "assets/posters-keyed/354-1112318807990829175.webp",
+    "tags": [
+      "全部",
+      "动物",
+      "仓鼠",
+      "发呆",
+      "无辜",
+      "静止"
+    ],
+    "description": "一只圆脸仓鼠正面站立，双爪放在胸前，身体几乎不动地凝视镜头，适合呆住或无辜等待。",
+    "hasAudio": true,
+    "meanVolumeDb": -14.4,
+    "maxVolumeDb": -4.3,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "355",
+    "name": "抬爪摆动小猫",
+    "src": "assets/clips/355-771030398736345644.mp4",
+    "poster": "assets/posters-keyed/355-771030398736345644.webp",
+    "tags": [
+      "全部",
+      "猫",
+      "挥爪",
+      "摆动",
+      "跳舞",
+      "打招呼"
+    ],
+    "description": "一只灰白小猫直立，轮流抬起前爪并左右摆动身体，像指方向、招手或轻松跳舞。",
+    "hasAudio": true,
+    "meanVolumeDb": -20.3,
+    "maxVolumeDb": -5.4,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "357",
+    "name": "仰头转身白猫",
+    "src": "assets/clips/357-896568238334246079.mp4",
+    "poster": "assets/posters-keyed/357-896568238334246079.webp",
+    "tags": [
+      "全部",
+      "猫",
+      "仰头",
+      "走路",
+      "转身",
+      "离场"
+    ],
+    "description": "一只白猫先仰头向前走动，随后转身向另一方向离开，适合寻找声音、路过或改变主意。",
+    "hasAudio": true,
+    "meanVolumeDb": -9.3,
+    "maxVolumeDb": 0.0,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "359",
+    "name": "持续喵叫白猫",
+    "src": "assets/clips/359-1118792732422766835.mp4",
+    "poster": "assets/posters-keyed/359-1118792732422766835.webp",
+    "tags": [
+      "全部",
+      "猫",
+      "喵叫",
+      "说话",
+      "抱怨",
+      "争论"
+    ],
+    "description": "一只白猫面对镜头反复张嘴喵叫，头部轻微左右摆动，表情像抱怨、解释或高声争论。",
+    "hasAudio": true,
+    "meanVolumeDb": -17.2,
+    "maxVolumeDb": 0.0,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "360",
+    "name": "大眼呆萌猫头",
+    "src": "assets/clips/360-1095711784331899875.mp4",
+    "poster": "assets/posters-keyed/360-1095711784331899875.webp",
+    "tags": [
+      "全部",
+      "猫",
+      "大眼",
+      "无辜",
+      "发呆",
+      "静止"
+    ],
+    "description": "一个圆形猫头悬浮在绿幕中央，睁着很大的黑眼睛几乎不动，适合无辜、发呆或静静围观。",
+    "hasAudio": true,
+    "meanVolumeDb": -18.2,
+    "maxVolumeDb": -7.3,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "361",
+    "name": "坐地惊讶虎斑猫",
+    "src": "assets/clips/361-1088182328710825511.mp4",
+    "poster": "assets/posters-keyed/361-1088182328710825511.webp",
+    "tags": [
+      "全部",
+      "猫",
+      "坐地",
+      "惊讶",
+      "张嘴",
+      "仰望"
+    ],
+    "description": "一只虎斑猫侧坐在地，前爪撑着身体并张嘴望向上方，像突然看见异常或被吓得坐倒。",
+    "hasAudio": true,
+    "meanVolumeDb": -38.4,
+    "maxVolumeDb": -21.5,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "362",
+    "name": "张嘴蹦跳小狗",
+    "src": "assets/clips/362-1009158228996336780.mp4",
+    "poster": "assets/posters-keyed/362-1009158228996336780.webp",
+    "tags": [
+      "全部",
+      "狗",
+      "蹦跳",
+      "张嘴",
+      "兴奋",
+      "扑跳"
+    ],
+    "description": "一只白棕小狗张大嘴巴向上蹦跳，落下时身体转向侧面，适合兴奋吠叫或扑向目标。",
+    "hasAudio": true,
+    "meanVolumeDb": -24.8,
+    "maxVolumeDb": -3.6,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "363",
+    "name": "直立转身灰狗",
+    "src": "assets/clips/363-923026886147337730.mp4",
+    "poster": "assets/posters-keyed/363-923026886147337730.webp",
+    "tags": [
+      "全部",
+      "狗",
+      "站立",
+      "转身",
+      "摆动",
+      "跳舞"
+    ],
+    "description": "一只灰色长嘴小狗用后腿站立，先正面抬爪后转身摆动，像跳舞、巡逻或回头查看。",
+    "hasAudio": true,
+    "meanVolumeDb": -15.8,
+    "maxVolumeDb": -5.7,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "364",
+    "name": "抬头转圈白猫",
+    "src": "assets/clips/364-1068619817831122930.mp4",
+    "poster": "assets/posters-keyed/364-1068619817831122930.webp",
+    "tags": [
+      "全部",
+      "猫",
+      "抬头",
+      "转圈",
+      "寻找",
+      "疑惑"
+    ],
+    "description": "一只白猫四脚站立，持续抬头并小幅转动身体，像寻找高处声音或不知所措地四处看。",
+    "hasAudio": true,
+    "meanVolumeDb": -7.5,
+    "maxVolumeDb": 0.0,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "365",
+    "name": "举爪热舞虎斑猫",
+    "src": "assets/clips/365-925841635918392883.mp4",
+    "poster": "assets/posters-keyed/365-925841635918392883.webp",
+    "tags": [
+      "全部",
+      "猫",
+      "举爪",
+      "跳舞",
+      "扭动",
+      "兴奋"
+    ],
+    "description": "一只虎斑猫用后腿站立，双爪交替举高并左右扭动身体，动作有力，适合兴奋表演。",
+    "hasAudio": true,
+    "meanVolumeDb": -21.0,
+    "maxVolumeDb": -7.1,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "366",
+    "name": "狂笑狗猫切换",
+    "src": "assets/clips/366-1090856341011023293.mp4",
+    "poster": "assets/posters-keyed/366-1090856341011023293.webp",
+    "tags": [
+      "全部",
+      "狗",
+      "猫",
+      "张嘴",
+      "反转",
+      "搞笑"
+    ],
+    "description": "画面先是一只小狗贴近镜头张嘴喘气和吠叫，结尾突然切成一张眯眼吐舌的猫脸，反差强烈。",
+    "hasAudio": true,
+    "meanVolumeDb": -20.4,
+    "maxVolumeDb": -0.7,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "367",
+    "name": "黑猫与兴奋小狗",
+    "src": "assets/clips/367-988751293185123296.mp4",
+    "poster": "assets/posters-keyed/367-988751293185123296.webp",
+    "tags": [
+      "全部",
+      "猫",
+      "狗",
+      "双人",
+      "反差",
+      "兴奋"
+    ],
+    "description": "一只黑猫安静坐着，一只张嘴兴奋的小狗从旁边出现并逐渐靠近镜头，形成冷静与吵闹的反差。",
+    "hasAudio": true,
+    "meanVolumeDb": -21.9,
+    "maxVolumeDb": -1.2,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "368",
+    "name": "低头嗅闻灰猫",
+    "src": "assets/clips/368-936185841276756334.mp4",
+    "poster": "assets/posters-keyed/368-936185841276756334.webp",
+    "tags": [
+      "全部",
+      "猫",
+      "低头",
+      "嗅闻",
+      "寻找",
+      "吃东西"
+    ],
+    "description": "一只灰猫持续低着头，把鼻子靠近下方反复嗅闻或舔舐，适合找东西、偷吃或认真检查。",
+    "hasAudio": true,
+    "meanVolumeDb": -22.9,
+    "maxVolumeDb": -5.9,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "369",
+    "name": "猫身人手热舞",
+    "src": "assets/clips/369-994943742683342458.mp4",
+    "poster": "assets/posters-keyed/369-994943742683342458.webp",
+    "tags": [
+      "全部",
+      "猫",
+      "跳舞",
+      "挥手",
+      "变身",
+      "搞怪"
+    ],
+    "description": "一只猫被合成夸张的人类手臂和身体动作，先左右挥手跳舞，结尾突然切换为坐着的小狗。",
+    "hasAudio": true,
+    "meanVolumeDb": -18.3,
+    "maxVolumeDb": 0.0,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "372",
+    "name": "红色头巾白猫",
+    "src": "assets/clips/372-1148347605028114826.mp4",
+    "poster": "assets/posters-keyed/372-1148347605028114826.webp",
+    "tags": [
+      "全部",
+      "猫",
+      "头巾",
+      "抬头",
+      "观察",
+      "可爱",
+      "帅气"
+    ],
+    "description": "一只白猫被红色头巾包住，只露出脸部，缓慢抬头并左右观察，像可爱伪装或认真倾听。",
+    "hasAudio": true,
+    "meanVolumeDb": -15.7,
+    "maxVolumeDb": -1.1,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "373",
+    "name": "瘦长卡通人挥手",
+    "src": "assets/clips/373-888123989040532280.mp4",
+    "poster": "assets/posters-keyed/373-888123989040532280.webp",
+    "tags": [
+      "全部",
+      "卡通角色",
+      "挥手",
+      "打招呼",
+      "尴尬",
+      "说话"
+    ],
+    "description": "一个棕色瘦长的卡通人物站立，先抬手靠近脸部，随后向侧面挥手并轻微转身，适合尴尬招呼或解释。",
+    "hasAudio": true,
+    "meanVolumeDb": -20.7,
+    "maxVolumeDb": -6.1,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "374",
+    "name": "回头坏笑柴犬",
+    "src": "assets/clips/374-925841635918911019.mp4",
+    "poster": "assets/posters-keyed/374-925841635918911019.webp",
+    "tags": [
+      "全部",
+      "狗",
+      "回头",
+      "坏笑",
+      "蹲坐",
+      "得意"
+    ],
+    "description": "一只柴犬蹲坐着背对镜头，慢慢把头转向镜头并露出微笑，像做坏事后回头确认。",
+    "hasAudio": true,
+    "meanVolumeDb": -17.6,
+    "maxVolumeDb": -1.5,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "377",
+    "name": "猫脸变双猫争论",
+    "src": "assets/clips/377-742742163576623092.mp4",
+    "poster": "assets/posters-keyed/377-742742163576623092.webp",
+    "tags": [
+      "全部",
+      "猫",
+      "双人",
+      "争论",
+      "指向",
+      "反转"
+    ],
+    "description": "画面先出现一只灰白猫的惊讶脸，随后切成橘猫和虎斑猫直立对话，虎斑猫伸爪指向对方。",
+    "hasAudio": true,
+    "meanVolumeDb": -28.0,
+    "maxVolumeDb": -11.7,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "379",
+    "name": "直立扭腰灰狗",
+    "src": "assets/clips/379-753578950190618541.mp4",
+    "poster": "assets/posters-keyed/379-753578950190618541.webp",
+    "tags": [
+      "全部",
+      "狗",
+      "站立",
+      "扭腰",
+      "跳舞",
+      "自信"
+    ],
+    "description": "一只灰色长嘴小狗用后腿站立，抬头挺胸并左右扭腰摆动，像自信展示或滑稽跳舞。",
+    "hasAudio": true,
+    "meanVolumeDb": -16.6,
+    "maxVolumeDb": -2.2,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "381",
+    "name": "坐地晃动胖猫",
+    "src": "assets/clips/381-925841635918353589.mp4",
+    "poster": "assets/posters-keyed/381-925841635918353589.webp",
+    "tags": [
+      "全部",
+      "猫",
+      "胖猫",
+      "坐着",
+      "摆烂",
+      "晃动"
+    ],
+    "description": "一只体型很胖的黑白猫坐在地上，前爪放在肚子旁并轻轻左右晃动，适合吃饱、摆烂或稳坐不动。",
+    "hasAudio": true,
+    "meanVolumeDb": -13.4,
+    "maxVolumeDb": 0.0,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "382",
+    "name": "美女白猫变土肥圆",
+    "src": "assets/clips/382-883550020641314108.mp4",
+    "poster": "assets/posters-keyed/382-883550020641314108.webp",
+    "tags": [
+      "全部",
+      "猫",
+      "变身",
+      "反差"
+    ],
+    "description": "画面中的白猫从侧躺姿势切换为灰白土肥圆油腻猫",
+    "hasAudio": true,
+    "meanVolumeDb": -18.8,
+    "maxVolumeDb": -0.6,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "383",
+    "name": "举爪热舞虎斑猫",
+    "src": "assets/clips/383-1119637157366737579.mp4",
+    "poster": "assets/posters-keyed/383-1119637157366737579.webp",
+    "tags": [
+      "全部",
+      "猫",
+      "举爪",
+      "跳舞",
+      "庆祝",
+      "兴奋"
+    ],
+    "description": "一只虎斑猫用后腿站立，双爪交替举到头顶并左右摆动，动作连续有力，适合热舞和庆祝。",
+    "hasAudio": true,
+    "meanVolumeDb": -21.0,
+    "maxVolumeDb": -7.0,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "384",
+    "name": "弱智奶猫",
+    "src": "assets/clips/384-1037235357921515771.mp4",
+    "poster": "assets/posters-keyed/384-1037235357921515771.webp",
+    "tags": [
+      "全部",
+      "弱智、回应"
+    ],
+    "description": "一只黑色小奶猫面部特写，睁大蓝灰色眼睛并反复张嘴，像认真解释、撒娇或惊讶发言。",
+    "hasAudio": true,
+    "meanVolumeDb": -21.3,
+    "maxVolumeDb": -1.0,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "385",
+    "name": "交叉挥爪灰猫",
+    "src": "assets/clips/385-986992074579591015.mp4",
+    "poster": "assets/posters-keyed/385-986992074579591015.webp",
+    "tags": [
+      "全部",
+      "猫",
+      "交叉手",
+      "拒绝",
+      "挥爪",
+      "跳舞"
+    ],
+    "description": "一只灰猫直立，双爪先在胸前交叉再向两侧举起，像拒绝、比手势或跟着节奏舞动。",
+    "hasAudio": true,
+    "meanVolumeDb": -11.0,
+    "maxVolumeDb": 0.0,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "386",
+    "name": "警觉探头虎斑猫",
+    "src": "assets/clips/386-1094304409461368784.mp4",
+    "poster": "assets/posters-keyed/386-1094304409461368784.webp",
+    "tags": [
+      "全部",
+      "猫",
+      "探头",
+      "警觉",
+      "回头",
+      "观察"
+    ],
+    "description": "一只虎斑猫头部从画面下方探出，眼睛睁大并缓慢转向侧面，像听见动静后警觉查看。",
+    "hasAudio": true,
+    "meanVolumeDb": -20.2,
+    "maxVolumeDb": -4.5,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "388",
+    "name": "讨饭狗",
+    "src": "assets/clips/388-1042513013737743785.mp4",
+    "poster": "assets/posters-keyed/388-1042513013737743785.webp",
+    "tags": [
+      "全部",
+      "敲碗",
+      "要饭",
+      "不耐烦"
+    ],
+    "description": "批着绿色头巾的狗拿着碗在要饭",
+    "hasAudio": true,
+    "meanVolumeDb": -20.0,
+    "maxVolumeDb": -7.5,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "389",
+    "name": "黑人抬棺队伍",
+    "src": "assets/clips/389-806777720747929231.mp4",
+    "poster": "assets/posters-keyed/389-806777720747929231.webp",
+    "tags": [
+      "全部",
+      "人物",
+      "群体",
+      "抬棺",
+      "走路",
+      "黑色幽默"
+    ],
+    "description": "一队穿西装、戴帽和墨镜的男子抬着棺材从画面侧面走过，是经典抬棺舞梗素材。",
+    "hasAudio": true,
+    "meanVolumeDb": -12.7,
+    "maxVolumeDb": -3.6,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "390",
+    "name": "累坏弱智猫",
+    "src": "assets/clips/390-1053279431623100538.mp4",
+    "poster": "assets/posters-keyed/390-1053279431623100538.webp",
+    "tags": [
+      "全部",
+      "吐舌",
+      "疲惫",
+      "呆滞"
+    ],
+    "description": "一只黑狗头部特写持续张嘴吐舌、快速喘气，眼睛略显疲惫，适合累坏、紧张或兴奋过度。",
+    "hasAudio": true,
+    "meanVolumeDb": -10.2,
+    "maxVolumeDb": -1.6,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "392",
+    "name": "墨镜动漫女孩热舞",
+    "src": "assets/clips/392-1089448966125939562.mp4",
+    "poster": "assets/posters-keyed/392-1089448966125939562.webp",
+    "tags": [
+      "全部",
+      "动漫角色",
+      "墨镜",
+      "跳舞",
+      "耍酷",
+      "庆祝"
+    ],
+    "description": "一个粉发动漫女孩戴黑色墨镜，左右摆动肩膀和手臂，动作轻松自信，适合耍酷或庆祝。",
+    "hasAudio": true,
+    "meanVolumeDb": -15.0,
+    "maxVolumeDb": -3.5,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "393",
+    "name": "长腿黑影怪舞",
+    "src": "assets/clips/393-983684743589577187.mp4",
+    "poster": "assets/posters-keyed/393-983684743589577187.webp",
+    "tags": [
+      "全部",
+      "怪物",
+      "剪影",
+      "跳舞",
+      "扭动",
+      "怪诞"
+    ],
+    "description": "一个四肢细长的黑色怪物剪影大幅挥动手臂、弯腰和扭动身体，舞姿怪异而有冲击力。",
+    "hasAudio": true,
+    "meanVolumeDb": -19.9,
+    "maxVolumeDb": -7.4,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "395",
+    "name": "直立合爪灰白猫",
+    "src": "assets/clips/395-1119426051148663376.mp4",
+    "poster": "assets/posters-keyed/395-1119426051148663376.webp",
+    "tags": [
+      "全部",
+      "猫",
+      "合爪",
+      "请求",
+      "鼓掌",
+      "站立"
+    ],
+    "description": "一只灰白猫用后腿站立，双爪在胸前合拢并轻轻上下移动，像拜托、鼓掌或认真请求。",
+    "hasAudio": true,
+    "meanVolumeDb": -15.6,
+    "maxVolumeDb": 0.0,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "397",
+    "name": "旋转狸花猫",
+    "src": "assets/clips/397-877639046154121162.mp4",
+    "poster": "assets/posters-keyed/397-877639046154121162.webp",
+    "tags": [
+      "全部",
+      "旋转、疯癫"
+    ],
+    "description": "一只黑猫从缩起坐姿逐渐伏低，最后完全趴成一团，适合累倒、放弃抵抗或安静躺平。",
+    "hasAudio": true,
+    "meanVolumeDb": -19.5,
+    "maxVolumeDb": -6.1,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "405",
+    "name": "爆炸烟火特效",
+    "src": "assets/clips/405-971440582128624485.mp4",
+    "poster": "assets/posters-keyed/405-971440582128624485.webp",
+    "tags": [
+      "全部",
+      "特效",
+      "爆炸",
+      "火焰",
+      "事故",
+      "转场"
+    ],
+    "description": "一团明亮爆炸火球在绿幕上迅速膨胀，喷出火焰和碎屑后消散，适合事故、战斗或夸张转场。",
+    "hasAudio": true,
+    "meanVolumeDb": -25.0,
+    "maxVolumeDb": -9.0,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "408",
+    "name": "第一次听音乐的暹罗猫",
+    "src": "assets/clips/408-1106478202186738653.mp4",
+    "poster": "assets/posters-keyed/408-1106478202186738653.webp",
+    "tags": [
+      "全部",
+      "嫌弃",
+      "拒绝",
+      "听音乐"
+    ],
+    "description": "第一次听音乐从震惊到嫌弃的暹罗猫",
+    "hasAudio": true,
+    "meanVolumeDb": -23.3,
+    "maxVolumeDb": -11.3,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "414",
+    "name": "粉色卡通猫扭动",
+    "src": "assets/clips/414-1066649492985835837.mp4",
+    "poster": "assets/posters-keyed/414-1066649492985835837.webp",
+    "tags": [
+      "全部",
+      "卡通猫",
+      "扭动",
+      "跳舞",
+      "可爱",
+      "开心"
+    ],
+    "description": "一只粉白色扁平卡通猫在画面下方左右扭动身体并挥动短爪，动作轻快可爱。",
+    "hasAudio": true,
+    "meanVolumeDb": -15.9,
+    "maxVolumeDb": -1.1,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "417",
+    "name": "抬头走动白猫",
+    "src": "assets/clips/417-1029072583586130063.mp4",
+    "poster": "assets/posters-keyed/417-1029072583586130063.webp",
+    "tags": [
+      "全部",
+      "猫",
+      "抬头",
+      "走路",
+      "寻找",
+      "转身"
+    ],
+    "description": "一只白猫四脚站立，持续抬头并向前走动，期间转身调整方向，像寻找高处目标或听见呼唤。",
+    "hasAudio": true,
+    "meanVolumeDb": -9.7,
+    "maxVolumeDb": 0.0,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "421",
+    "name": "四处张望白猫",
+    "src": "assets/clips/421-1084734260226392982.mp4",
+    "poster": "assets/posters-keyed/421-1084734260226392982.webp",
+    "tags": [
+      "全部",
+      "猫",
+      "张望",
+      "走路",
+      "寻找",
+      "警觉"
+    ],
+    "description": "一只白猫边走边抬头左右观察，身体缓慢转向不同方向，适合迷路、寻找东西或警觉巡查。",
+    "hasAudio": true,
+    "meanVolumeDb": -7.4,
+    "maxVolumeDb": 0.0,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "427",
+    "name": "黑白加载圆环",
+    "src": "assets/clips/427-978758931518205415.mp4",
+    "poster": "assets/posters-keyed/427-978758931518205415.webp",
+    "tags": [
+      "全部",
+      "特效",
+      "加载",
+      "旋转",
+      "等待",
+      "卡顿"
+    ],
+    "description": "一个由黑白短条组成的加载圆环在绿幕中央持续旋转，结尾带平台画面，适合等待、卡顿或思考。",
+    "hasAudio": true,
+    "meanVolumeDb": -9.5,
+    "maxVolumeDb": 0.0,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "433",
+    "name": "粉发动漫女孩转身",
+    "src": "assets/clips/433-1145884698954916056.mp4",
+    "poster": "assets/posters-keyed/433-1145884698954916056.webp",
+    "tags": [
+      "全部",
+      "动漫角色",
+      "转身",
+      "举手",
+      "登场",
+      "可爱"
+    ],
+    "description": "一个粉发动漫女孩先背对镜头抬手，随后弯腰转身并面对镜头举起双臂，像变身或活力登场。",
+    "hasAudio": true,
+    "meanVolumeDb": -14.1,
+    "maxVolumeDb": 0.0,
+    "hasAudibleAudio": true
+  },
+  {
+    "id": "438",
+    "name": "灰白加载圆环",
+    "src": "assets/clips/438-979040406486785051.mp4",
+    "poster": "assets/posters-keyed/438-979040406486785051.webp",
+    "tags": [
+      "全部",
+      "特效",
+      "加载",
+      "旋转",
+      "等待",
+      "系统"
+    ],
+    "description": "一个灰白分段加载圆环在绿幕中央不断旋转，画面带剪辑平台水印，适合等待或系统处理中。",
+    "hasAudio": true,
+    "meanVolumeDb": -7.8,
+    "maxVolumeDb": 0.0,
+    "hasAudibleAudio": true
+  }
+]

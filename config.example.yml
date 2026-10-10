@@ -1,0 +1,9 @@
+server:
+  host: "127.0.0.1"
+  port: 4173
+
+agnes:
+  api_key: "YOUR_AGNES_API_KEY"
+
+admin:
+  token: "CHANGE_THIS_ADMIN_TOKEN"
